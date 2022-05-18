@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дарья Опутина](https://up.htmlacademy.ru/htmlcss/34/user/2048909).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
 
 ---
 
