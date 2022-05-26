@@ -38,6 +38,87 @@
   </ul>
 </nav>
 </header>
+<main class="main-inner">
+  <header class="inner-header">
+    <h1 class="inner-header-title">Гостиницы Седоны</h1>
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs-item">
+        <img class=”icon” src=”index.html” alt=”Иконка главная”>
+      </li>
+      <li class="breadcrumbs-item">
+        <a class="breadcrumbs-link">Гостиницы</a>
+      </li>
+    </ul>
+  </header>
+  <section class="catalog-products">
+    <h2 class="visually-hidden">Фильтрация гостиниц</h2>
+    <fieldset class="catalog-filter-group">
+      <legend class="catalog-filter-title">Инфраструктура:</legend>
+      <ul class="catalog-filter-list">
+        <li class="catalog-filter-item">
+          <label class="control">
+            <input class="control-input" type="checkbox" name="бассейн" checked>
+
+            Бассейн
+          </label>
+        </li>
+        <li class="catalog-filter-item">
+          <label class="control">
+            <input class="control-input" type="checkbox" name="парковка" checked>
+
+            Парковка
+          </label>
+        </li>
+        <li class="catalog-filter-item">
+          <label class="control">
+            <input class="control-input" type="checkbox" name="wi-fi">
+
+            Wi-Fi
+          </label>
+        </li>
+        </ul>>
+    </fieldset>
+    <fieldset class="catalog-filter-group">
+      <legend class="catalog-filter-title">Тип Жилья:</legend>
+      <ul class="catalog-filter-list">
+        <li class="catalog-filter-item">
+          <label class="control">
+            <input class="control-input" type="radio" name="type of housing" value="hotel" checked>
+
+            Гостиница
+          </label>
+        </li>
+        <li class="catalog-filter-item">
+          <label class="control">
+            <input class="control-input" type="radio" name="type of housing" value="motel">
+
+            Мотель
+          </label>
+        </li>
+        <li class="catalog-filter-item">
+          <label class="control">
+            <input class="control-input" type="radio" name="type of housing" value="apartments">
+
+            Апартаменты
+          </label>
+        </li>
+    </fieldset>
+    <fieldset class="catalog-filter-group">
+      <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+      <p>
+        <label>от<input type="text" value="0"></label>
+        <label>до<input type="text" value="9000"></label>
+      </p>
+      <p>
+        <meter min="0" max="9000"></meter>
+      </p>
+    </fieldset>
+    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+      <button class="button" type="submit">Применить</button>
+      <button class="button-hidden" type="submit">Сбросить</button>
+    </form>
+  </section>
+</main>
 <section class="appointment-catalog">
   <h2 class="appointment-catalog-title"><b>Подпишитесь на рассылку</b></h2>
   <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
