@@ -52,8 +52,9 @@
          </header>
          <section class="catalog-products">
             <h2 class="visually-hidden">Фильтрация гостиниц</h2>
-            <fieldset class="catalog-filter-group">
-               <legend class="catalog-filter-title">Инфраструктура:</legend>
+            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get"></form>
+              <fieldset class="catalog-filter-group">
+                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                      <label class="control">
@@ -74,7 +75,6 @@
                      </label>
                   </li>
                </ul>
-               >
             </fieldset>
             <fieldset class="catalog-filter-group">
                <legend class="catalog-filter-title">Тип Жилья:</legend>
@@ -108,10 +108,9 @@
                   <meter min="0" max="9000"></meter>
                </p>
             </fieldset>
-            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-               <button class="button" type="submit">Применить</button>
-               <button class="button-hidden" type="submit">Сбросить</button>
-            </form>
+            <button class="button" type="button">Применить</button>
+            <button class="button" type="button">Сбросить</button>
+          </form>
          </section>
          <section class="catalog-products">
             <h2 class="visually-hidden">Результаты поиска</h2>
