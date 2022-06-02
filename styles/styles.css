@@ -47,6 +47,12 @@ body {
   color: #000000;
 }
 
+.page-header {
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
 .main-index {
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
@@ -60,4 +66,8 @@ body {
   background-repeat: no-repeat;
 }
 
-
+.inner-header-title {
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
