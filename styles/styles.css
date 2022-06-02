@@ -46,3 +46,10 @@ body {
   background-color: #FFFFFF;
   color: #000000;
 }
+
+.main-index {
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
