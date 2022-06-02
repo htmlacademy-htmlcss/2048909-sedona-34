@@ -90,9 +90,9 @@ body {
 
 .appointment {
   background-image: url("../images/subscribe-background.jpg");
-  background-size: 100% auto;
-  border-radius: 0px;
   background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 411px;
 }
 
 .appointment-title {
