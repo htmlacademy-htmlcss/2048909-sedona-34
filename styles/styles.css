@@ -117,6 +117,13 @@ body {
   text-transform: uppercase;
 }
 
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
 .catalog-products {
   background-image: url("../images/filter-background.jpg");
   background-size: 100% auto;
