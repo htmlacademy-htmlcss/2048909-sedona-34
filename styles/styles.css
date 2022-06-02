@@ -45,3 +45,8 @@ body {
   line-height: 21px;
   background-color: #FFFFFF;
 }
+
+.page-header {
+  color: #000000
+  background-color: #FFFFFF
+}
