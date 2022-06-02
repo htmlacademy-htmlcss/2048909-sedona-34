@@ -53,3 +53,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.appointment {
+  background-image: url("../images/subscribe-background.jpg");
+  background-size: 100% auto;
+  border-radius: 0px;
+  background-repeat: no-repeat;
+}
+
+
