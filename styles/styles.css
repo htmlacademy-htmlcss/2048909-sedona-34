@@ -71,3 +71,10 @@ body {
   line-height: 26px;
   text-transform: uppercase;
 }
+
+.catalog-products {
+  background-image: url("../images/filter-background.jpg");
+  background-size: 100% auto;
+  border-radius: 0px;
+  background-repeat: no-repeat;
+}
