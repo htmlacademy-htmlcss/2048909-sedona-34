@@ -60,6 +60,20 @@ body {
   background-repeat: no-repeat;
 }
 
+.main-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-paragraph {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
 .appointment {
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
