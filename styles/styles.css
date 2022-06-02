@@ -80,6 +80,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.select-control {
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
 .product-card-title {
   font-style: normal;
   font-weight: 700;
@@ -120,4 +125,9 @@ body {
   background: #F2F2F2;
   color: #000000;
   border: 1px solid #F2F2F2;
+}
+
+.select-control {
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
 }
