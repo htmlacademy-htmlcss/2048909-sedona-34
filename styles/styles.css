@@ -50,3 +50,15 @@ body {
   color: #000000
   background-color: #FFFFFF
 }
+
+.navigation-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: inherit;
+}
