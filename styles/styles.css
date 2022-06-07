@@ -69,6 +69,11 @@ body {
   margin: 0 auto;
 }
 
+.navigation-list {
+  margin: 0;
+  padding: 0;
+}
+
 .advantages-item-1 {
   background: #82B3D3;
   color: #FFFFFF;
