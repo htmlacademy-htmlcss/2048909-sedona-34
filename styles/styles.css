@@ -114,7 +114,6 @@ body {
 }
 
 .product-card-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -123,7 +122,6 @@ body {
 .button-detailed {
   background: #756157;
   border-radius: 4px;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -134,7 +132,6 @@ body {
 .button-favourites {
   background: #82B3D3;
   border-radius: 4px;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -179,8 +176,6 @@ body {
 }
 
 .page-footer {
-  font-style: normal;
-  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
 }
