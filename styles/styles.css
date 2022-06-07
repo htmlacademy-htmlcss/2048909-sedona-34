@@ -63,6 +63,12 @@ body {
   text-align: center;
 }
 
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .advantages-item-1 {
   background: #82B3D3;
   color: #FFFFFF;
