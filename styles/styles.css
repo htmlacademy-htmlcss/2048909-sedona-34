@@ -225,6 +225,10 @@ body {
   font-size: 24px;
 }
 
+.search {
+  text-align: center;
+}
+
 .interest {
   font-weight: 700;
   font-size: 30px;
@@ -244,6 +248,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
   height: 411px;
+  text-align: center;
 }
 
 .appointment-title {
