@@ -281,15 +281,6 @@ body {
   color: #FFFFFF;
 }
 
-.catalog-products {
-  background-image: url("../images/filter-background.jpg");
-  background-size: 100% auto;
-  border-radius: 0px;
-  background-repeat: no-repeat;
-  width: 1200px;
-  height: 403px;
-}
-
 .select-control {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
@@ -383,25 +374,47 @@ body {
   max-width: 115px;
 }
 
+.container-catalog {
+  background-image: url("../images/filter-background.jpg");
+  background-size: 100% auto;
+  border-radius: 0px;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 403px;
+}
+
 .catalog-products {
   display: flex;
-  justify-content: space-between;
   margin: 0;
   padding: 0;
   text-align: center;
+  color: #FFFFFF;
 }
 
 .catalog-filter-infrastructure {
   width: 150.43px;
   margin-right: 70px;
+  margin-left: 70px;
+  border: 0;
 }
 
 .catalog-filter-type {
   width: 125px;
   margin-right: 176px;
+  border: 0;
 }
 
 .catalog-filter-price {
   width: 289px;
   margin-right: 70px;
+  border: 0;
 }
+
+.button-catalog {
+  display: flex;
+  flex-direction: Column;
+  margin-right: 70px;
+  margin-left: 70px;
+  padding: 0;
+}
+
