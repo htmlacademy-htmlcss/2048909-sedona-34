@@ -26,12 +26,12 @@
                <ul class="navigation-user">
                   <li class="navigation-item">
                      <a class="navigation-link" href="#">
-                       <span class="visually-hidden">Поиск</span>
+                     <span class="visually-hidden">Поиск</span>
                      </a>
                   </li>
                   <li class="navigation-item">
                      <a class="navigation-link" href="#">
-                       <span class="visually-hidden">Избранное</span>
+                     <span class="visually-hidden">Избранное</span>
                      </a>
                   </li>
                   <li class="navigation-item">
@@ -43,78 +43,77 @@
          <main class="main-container main-inner">
             <div class="page-container">
                <header class="inner-header">
-                  <h1 class="inner-header-title">Гостиницы Седоны</h1>
-                  <ul class="breadcrumbs">
-                     <li class="breadcrumbs-item">
-                        <img class=”icon” src=”index.html” alt=”Иконка главная”>
-                     </li>
-                     <li class="breadcrumbs-item">
-                        <a class="breadcrumbs-link">Гостиницы</a>
-                     </li>
-                  </ul>
+                  <div class="container-catalog">
+                     <h1 class="inner-header-title">Гостиницы Седоны</h1>
+                     <ul class="breadcrumbs">
+                        <li class="breadcrumbs-item">
+                           <img class=”icon” src=”index.html” alt=”Иконка главная”>
+                        </li>
+                        <li class="breadcrumbs-item">
+                           <a class="breadcrumbs-link">Гостиницы</a>
+                        </li>
+                     </ul>
                </header>
                <section class="catalog-products">
-                  <div class="container-catalog">
-                     <!--временно добавим атрибут hidden, чтобы заголовок не рушил сетку-->
-                     <h2 class="visually-hidden" hidden>Фильтрация гостиниц</h2>
-                     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get"></form>
-                     <fieldset class="catalog-filter-infrastructure">
-                        <legend class="catalog-filter-title">Инфраструктура:</legend>
-                        <ul class="catalog-filter-list">
-                           <li class="catalog-filter-item">
-                              <label class="control">
-                                <input class="control-input" type="checkbox" name="бассейн" value="pool" checked>
-                                <span class="control-span">Бассейн</span>
-                              </label>
-                           </li>
-                           <li class="catalog-filter-item">
-                              <label class="control">
-                                <input class="control-input" type="checkbox" name="парковка" value="parking" checked>
-                                <span class="control-span">Парковка</span>
-                              </label>
-                           </li>
-                           <li class="catalog-filter-item">
-                              <label class="control">
-                                <input class="control-input" type="checkbox" name="wi-fi" value="wi-fi">
-                                <span class="control-span">Wi-fi</span>
-                              </label>
-                           </li>
-                        </ul>
-                     </fieldset>
-                     <fieldset class="catalog-filter-type">
-                        <legend class="catalog-filter-title">Тип Жилья:</legend>
-                        <ul class="catalog-filter-list">
-                          <li class="catalog-filter-item">
-                            <label class="control">
-                              <input class="control-input" type="radio" name="type of housing" value="hotel" checked>
-                              <span class="control-span">Гостиница</span>
-                           </label>
-                          </li>
-                          <li class="catalog-filter-item">
-                             <label class="control">
-                               <input class="control-input" type="radio" name="type of housing" value="motel">
-                               <span class="control-span">Мотель</span>
-                           </label>
-                          </li>
-                          <li class="catalog-filter-item">
-                            <label class="control">
-                              <input class="control-input" type="radio" name="type of housing" value="apartments">
-                              <span class="control-span">Апартаменты</span>
-                           </label>
-                          </li>
-                        </ul>
-                     </fieldset>
-                     <fieldset class="catalog-filter-price">
-                        <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-                        <p>
-                           <label>от<input type="text" value="0"></label>
-                           <label>до<input type="text" value="9000"></label>
-                        </p>
-                        <div class="catalog-filter-row" min="0" max="9000"></div>
-                     </fieldset>
-                     <button class="button" type="button">Применить</button>
-                     <button class="button" type="reset">Сбросить</button>
-                  </div>
+               <!--временно добавим атрибут hidden, чтобы заголовок не рушил сетку-->
+                 <h2 class="visually-hidden" hidden>Фильтрация гостиниц</h2>
+                 <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get"></form>
+                 <fieldset class="catalog-filter-infrastructure">
+                   <legend class="catalog-filter-title">Инфраструктура:</legend>
+                     <ul class="catalog-filter-list">
+                       <li class="catalog-filter-item">
+                         <label class="control">
+                           <input class="control-input" type="checkbox" name="бассейн" value="pool" checked>
+                           <span class="control-span">Бассейн</span>
+                         </label>
+                       </li>
+                       <li class="catalog-filter-item">
+                         <label class="control">
+                           <input class="control-input" type="checkbox" name="парковка" value="parking" checked>
+                           <span class="control-span">Парковка</span>
+                         </label>
+                       </li>
+                       <li class="catalog-filter-item">
+                         <label class="control">
+                           <input class="control-input" type="checkbox" name="wi-fi" value="wi-fi">
+                           <span class="control-span">Wi-fi</span>
+                         </label>
+                       </li>
+                     </ul>
+                 </fieldset>
+                 <fieldset class="catalog-filter-type">
+                   <legend class="catalog-filter-title">Тип Жилья:</legend>
+                   <ul class="catalog-filter-list">
+                     <li class="catalog-filter-item">
+                       <label class="control">
+                         <input class="control-input" type="radio" name="type of housing" value="hotel" checked>
+                         <span class="control-span">Гостиница</span>
+                       </label>
+                     </li>
+                     <li class="catalog-filter-item">
+                       <label class="control">
+                         <input class="control-input" type="radio" name="type of housing" value="motel">
+                         <span class="control-span">Мотель</span>
+                       </label>
+                     </li>
+                     <li class="catalog-filter-item">
+                       <label class="control">
+                         <input class="control-input" type="radio" name="type of housing" value="apartments">
+                         <span class="control-span">Апартаменты</span>
+                       </label>
+                     </li>
+                   </ul>
+                 </fieldset>
+                 <fieldset class="catalog-filter-price">
+                   <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+                   <p>
+                     <label>от<input type="text" value="0"></label>
+                     <label>до<input type="text" value="9000"></label>
+                   </p>
+                   <div class="catalog-filter-row" min="0" max="9000"></div>
+                 </fieldset>
+                 <button class="button" type="button">Применить</button>
+                 <button class="button" type="reset">Сбросить</button>
                </section>
                <div class="filter-menu">
                   <h2 class="filter-menu-title">Найдено гостиниц: 38</h2>
@@ -200,7 +199,7 @@
                      </li>
                      <li class="pagination-item">
                         <a class="pagination-link pagination-next" href="#">
-                          <span class="visually-hidden">10</span>
+                        <span class="visually-hidden">10</span>
                         </a>
                      </li>
                   </ul>
@@ -227,15 +226,15 @@
                   <ul class="footer-social-list">
                      <li class="footer-social-item">
                         <a class="button" href="https://vk.com/htmlacademy"></a>
-                          <span class="visually-hidden">Vkontakte</span>
+                        <span class="visually-hidden">Vkontakte</span>
                      </li>
                      <li class="footer-social-item">
                         <a class="button" href="https://t.me/htmlacademy"></a>
-                          <span class="visually-hidden">Telegram</span>
+                        <span class="visually-hidden">Telegram</span>
                      </li>
                      <li class="footer-social-item">
                         <a class="button" href="https://www.youtube.com/user/htmlacademyru"></a>
-                          <span class="visually-hidden">Youtube</span>
+                        <span class="visually-hidden">Youtube</span>
                      </li>
                   </ul>
                </section>
