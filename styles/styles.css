@@ -421,6 +421,19 @@ body {
 
 .filter-menu {
   display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-menu-title {
+  width: 338px;
+  margin-right: 221px;
+  margin-left: 72px;
+}
+
+.select-control {
+  width: 141px;
+  margin-right: 114px;
 }
 
 .product-list {
@@ -432,29 +445,22 @@ body {
 }
 
 .product-card-amara {
-  margin: 0;
-  padding: 0;
   height: 438px;
   width: 340px;
+  margin-left: 73px;
 }
 
 .product-card-villas {
-  margin: 0;
-  padding: 0;
   height: 438px;
   width: 340px;
 }
 
 .product-card-desert {
-  margin: 0;
-  padding: 0;
   height: 438px;
   width: 340px;
 }
 
 .product-card-greenTree {
-  margin: 0;
-  padding: 0;
   height: 438px;
   width: 340px;
 }
