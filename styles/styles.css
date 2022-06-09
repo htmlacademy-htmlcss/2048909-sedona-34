@@ -390,3 +390,18 @@ body {
   padding: 0;
   text-align: center;
 }
+
+.catalog-filter-infrastructure {
+  width: 150.43px;
+  margin-right: 70px;
+}
+
+.catalog-filter-type {
+  width: 125px;
+  margin-right: 176px;
+}
+
+.catalog-filter-price {
+  width: 289px;
+  margin-right: 70px;
+}
