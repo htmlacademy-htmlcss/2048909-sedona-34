@@ -441,6 +441,7 @@ body {
 }
 
 .select-control {
+  margin: 0 auto;
   width: 141px;
   margin-right: 114px;
 }
@@ -481,6 +482,8 @@ body {
 }
 
 .pagination {
+  margin: 0;
+  padding: 0;
   margin-right: 270px;
 }
 
