@@ -377,7 +377,7 @@ body {
 .container-catalog {
   background-image: url("../images/filter-background.jpg");
   background-size: 100% auto;
-  border-radius: 0px;
+  border-radius: 0;
   background-repeat: no-repeat;
   width: 1200px;
   height: 403px;
@@ -462,6 +462,10 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+}
+
+.pagination {
+  margin-right: 270px;
 }
 
 .appointment-сatalog {
