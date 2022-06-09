@@ -418,3 +418,17 @@ body {
   padding: 0;
 }
 
+.filter-menu {
+  display: flex;
+}
+
+.product-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
