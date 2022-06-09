@@ -393,6 +393,12 @@ body {
   color: #FFFFFF;
 }
 
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
 .catalog-filter-infrastructure {
   width: 150.43px;
   margin: 0;
