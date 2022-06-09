@@ -458,3 +458,9 @@ body {
   width: 340px;
 }
 
+.page-pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
