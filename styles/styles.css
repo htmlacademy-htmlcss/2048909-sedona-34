@@ -332,7 +332,9 @@ body {
 }
 
 .appointment-catalog {
-  height: 417px;
+  width: 1200px;
+  height: 411px;
+  text-align: center;
 }
 
 .appointment-catalog-title {
