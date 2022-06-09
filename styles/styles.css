@@ -395,6 +395,8 @@ body {
 
 .catalog-filter-infrastructure {
   width: 150.43px;
+  margin: 0;
+  padding: 0;
   margin-right: 70px;
   margin-left: 70px;
   border: 0;
