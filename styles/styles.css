@@ -107,7 +107,6 @@ body {
 .advantages-list {
   margin: 0;
   padding: 0;
-
 }
 
 .advantages-item-1 {
@@ -438,10 +437,6 @@ body {
   width: 338px;
   margin-right: 221px;
   margin-left: 72px;
-}
-
-.filter-pagination {
-
 }
 
 .filter-pagination {
