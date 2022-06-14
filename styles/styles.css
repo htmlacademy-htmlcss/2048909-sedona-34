@@ -117,7 +117,7 @@ body {
   text-align: center;
   background: #82B3D3;
   color: #FFFFFF;
-  height: 384px;
+  min-height: 384px;
 }
 
 .advantages-items {
@@ -132,20 +132,17 @@ body {
 .advantages-item-2 {
   background: rgba(131, 179, 211, 0.12);
   width: 400px;
-  height: 384px;
   text-align: center;
 }
 
 .advantages-item-3 {
   width: 400px;
-  height: 384px;
   text-align: center;
 }
 
 .advantages-item-4 {
   background: rgba(131, 179, 211, 0.12);
   width: 400px;
-  height: 384px;
   text-align: center;
 }
 
@@ -157,7 +154,6 @@ body {
   text-align: center;
   background: #82B3D3;
   color: #FFFFFF;
-  height: 384px;
 }
 
 .advantages-features {
@@ -171,19 +167,17 @@ body {
 .advantages-item-6 {
   background: rgba(131, 179, 211, 0.12);
   width: 400px;
-  height: 384px;
+  min-height: 384px;
 }
 
 .advantages-item-7 {
   background: rgba(131, 179, 211, 0.2);
   width: 400px;
-  height: 384px;
 }
 
 .advantages-item-8 {
   background: rgba(131, 179, 211, 0.12);
   width: 400px;
-  height: 384px;
 }
 
 .advantages-item-city {
@@ -248,7 +242,7 @@ body {
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  height: 411px;
+  min-height: 411px;
   text-align: center;
 }
 
@@ -333,7 +327,6 @@ body {
 
 .appointment-catalog {
   width: 1200px;
-  height: 411px;
   text-align: center;
 }
 
@@ -383,7 +376,7 @@ body {
   border-radius: 0;
   background-repeat: no-repeat;
   width: 1200px;
-  height: 403px;
+  min-height: 403px;
 }
 
 .catalog-products {
@@ -457,23 +450,19 @@ body {
 }
 
 .product-card-amara {
-  height: 438px;
   width: 340px;
   margin-left: 73px;
 }
 
 .product-card-villas {
-  height: 438px;
   width: 340px;
 }
 
 .product-card-desert {
-  height: 438px;
   width: 340px;
 }
 
 .product-card-greenTree {
-  height: 438px;
   width: 340px;
 }
 
@@ -490,6 +479,5 @@ body {
 }
 
 .appointment-сatalog {
-  height: 411px;
   text-align: center;
 }
