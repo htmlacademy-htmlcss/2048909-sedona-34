@@ -114,7 +114,16 @@ body {
 }
 
 .advantages-item {
-max-width: 400px;
+  max-width: 400px;
+}
+
+.container-advantages {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 400px;
 }
 
 .advantages-img {
@@ -126,6 +135,10 @@ max-width: 400px;
   max-width: 1200px;
   color: #FFFFFF;
   background: #82B3D3;
+}
+
+.advantages-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .advantages-item-title {
