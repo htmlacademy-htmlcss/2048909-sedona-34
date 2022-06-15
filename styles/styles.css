@@ -105,116 +105,30 @@ body {
 }
 
 .advantages-list {
-  margin: 0;
-  padding: 0;
-}
-
-.advantages-item-1 {
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
   text-align: center;
-  background: #82B3D3;
+  flex-wrap: wrap;
+}
+
+.advantages-item {
+max-width: 400px;
+}
+
+.advantages-img {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
   color: #FFFFFF;
-  min-height: 384px;
-}
-
-.advantages-items {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 1200px;
-}
-
-.advantages-item-2 {
-  background: rgba(131, 179, 211, 0.12);
-  width: 400px;
-  text-align: center;
-}
-
-.advantages-item-3 {
-  width: 400px;
-  text-align: center;
-}
-
-.advantages-item-4 {
-  background: rgba(131, 179, 211, 0.12);
-  width: 400px;
-  text-align: center;
-}
-
-.advantages-item-5 {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  text-align: center;
   background: #82B3D3;
-  color: #FFFFFF;
 }
 
-.advantages-features {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.advantages-item-6 {
-  background: rgba(131, 179, 211, 0.12);
-  width: 400px;
-}
-
-.advantages-item-7 {
-  background: rgba(131, 179, 211, 0.2);
-  width: 400px;
-}
-
-.advantages-item-8 {
-  background: rgba(131, 179, 211, 0.12);
-  width: 400px;
-}
-
-.advantages-item-city {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.advantages-item-home {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.advantages-item-meal {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.advantages-item-souvenirs {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.advantages-item-bridge {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.advantages-item-space {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.advantages-item-road {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.advantages-item-rew {
+.advantages-item-title {
   font-weight: 700;
   font-size: 24px;
 }
