@@ -57,6 +57,7 @@ body {
 
 .main-container {
   flex-grow: 1;
+  padding-top: 51px;
 }
 
 .main-index {
