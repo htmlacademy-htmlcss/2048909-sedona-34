@@ -105,16 +105,29 @@ body {
 }
 
 .navigation-list {
-  width: 340px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
   margin: 0;
   padding: 0;
-  padding-right: 312px;
   list-style-type: none;
 }
 
+.navigation-link {
+  display: block;
+  padding: 20px 19px;
+}
+
 .navigation-user {
-  width: 220px;
+  max-width: 320px;
   margin-left: auto;
+}
+
+.button {
+  display: block;
+  padding: 9px 15px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .advantages-list {
