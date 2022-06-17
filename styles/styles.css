@@ -546,12 +546,32 @@ margin-bottom: 40px;
   display: flex;
   margin: 0;
   padding: 0;
+  margin-top: 50px;
+  margin-bottom: 57px;
+  margin-left: 72px;
+  margin-right: 191px;
 }
 
 .filter-menu-title {
+  margin: 0;
+  padding: 0;
   width: 338px;
-  margin-right: 221px;
-  margin-left: 72px;
+}
+
+.select-control {
+  margin: 0 auto;
+  padding: 0;
+  margin-right: 95px;
+  align-self: center;
+}
+
+.sorting-container .button {
+  margin: 0;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 57px;
+  margin-left: 71px;
 }
 
 .filter-pagination {
