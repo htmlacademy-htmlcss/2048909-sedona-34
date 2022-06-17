@@ -442,6 +442,19 @@ body {
   margin-right: 250px;
 }
 
+.footer-social-list {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  padding-top: 58px;
+}
+
+.footer-social-item {
+  width: 22px;
+  height: 17px;
+}
+
 .footer-contact {
   width: 331px;
   margin-right: 236px;
