@@ -57,7 +57,6 @@ body {
 
 .main-container {
   flex-grow: 1;
-  padding-top: 51px;
 }
 
 .main-index {
@@ -78,7 +77,6 @@ body {
   display: block;
   margin: 0 auto;
   padding: 0;
-  padding-bottom: 84px;
 }
 
 .main-title {
@@ -87,6 +85,8 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
+  padding: 0;
+  margin: 0;
   padding-top: 63px;
   padding-bottom: 31px;
   padding-right: 290px;
@@ -97,6 +97,8 @@ body {
 .main-paragraph {
   font-size: 22px;
   line-height: 26px;
+  padding: 0;
+  margin: 0;
   text-align: center;
   padding-bottom: 90px;
 }
@@ -139,6 +141,14 @@ body {
   margin-bottom: 14px;
 }
 
+.logo-welcome {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 51px;
+  margin-bottom: 82px;
+
+}
 .advantages-list {
   display: flex;
   justify-content: space-between;
@@ -146,18 +156,21 @@ body {
   padding: 0;
   text-align: center;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
-.advantages-item {
-  max-width: 400px;
-}
 
 .container-advantages {
   display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
-  text-align: center;
-  flex-wrap: wrap;
+  width: 400px;
+}
+
+.advantages-item {
+  margin: 0;
+  padding: 0;
   max-width: 400px;
 }
 
@@ -165,28 +178,108 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  text-align: center;
-  flex-wrap: wrap;
   max-width: 1200px;
   color: #FFFFFF;
   background: #82B3D3;
 }
 
 .advantages-row-reverse {
+  margin: 0;
+  padding: 0;
   flex-direction: row-reverse;
 }
+
+.advantages-item-image {
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin-bottom: 30px;
+}
+
+.advantages-image-city {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 800px;
+}
+
 
 .advantages-item-title {
   font-weight: 700;
   font-size: 24px;
+  margin: 0;
+  padding: 0;
+  padding-top: 92px;
+  padding-right: 85px;
+  padding-left: 85px;
+  margin-bottom: 30px;
+}
+
+.advantages-city {
+  margin: 0;
+  padding: 0;
+  padding-right: 85px;
+  padding-left: 85px;
+  margin-bottom: 30px;
+}
+
+.advantages-numb {
+  margin: 0;
+  padding: 0;
+  padding-right: 85px;
+  padding-left: 85px;
+  margin-bottom: 30px;
+}
+
+.advantages-description {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-right: 85px;
+  padding-left: 85px;
+  margin-bottom: 92px;
+}
+
+.description-city {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 81px;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+.advantages-image-city{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-content {
+  padding-top: 103px;
+  padding-right: 85px;
+  padding-left: 85px;
+  margin-bottom: 30px;
+}
+
+.description-square {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 102px;
+  padding-right: 85px;
+  padding-left: 85px;
 }
 
 .color-bloc {
   background: rgba(131, 179, 211, 0.12);
+  min-width: 400px;
 }
 
 .color-road {
   background: rgba(131, 179, 211, 0.2);
+  min-width: 400px;
 }
 
 .search {
@@ -211,7 +304,6 @@ body {
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  min-height: 411px;
   text-align: center;
 }
 
