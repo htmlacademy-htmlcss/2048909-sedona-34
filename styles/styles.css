@@ -526,17 +526,17 @@ body {
 
 .filter-menu {
   display: flex;
-  margin: 0;
-  padding: 0;
-  margin-top: 50px;
-  margin-bottom: 57px;
+  margin-top: 55px;
+  margin-right: 71px;
   margin-left: 72px;
-  margin-right: 191px;
+  margin-bottom: 56px;
 }
 
 .filter-menu-title {
   margin: 0;
   padding: 0;
+  padding-top: 8px;
+  padding-bottom: 5px;
   width: 338px;
 }
 
@@ -580,15 +580,22 @@ body {
 
 .page-pagination {
   display: flex;
+  width: 1056px;
   margin: 0;
   padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 73px;
+  margin-right: 71px;
+  margin-bottom: 25px;
 }
 
 .pagination {
   display: flex;
   margin: 0;
   padding: 0;
-  margin-left: 73px;
   list-style-type: none;
 }
 
@@ -597,8 +604,8 @@ body {
 }
 
 .filter-pagination {
-  margin-left: auto;
-  align-self: center;
+  padding-top: 20px;
+  padding-bottom: 18px;
 }
 
 .select-control {
