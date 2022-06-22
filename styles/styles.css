@@ -518,7 +518,7 @@ body {
 
 .button-catalog {
   display: flex;
-  flex-direction: Column;
+  flex-direction: column;
   margin-right: 70px;
   margin-left: 70px;
   padding: 0;
@@ -526,7 +526,9 @@ body {
 
 .filter-menu {
   display: flex;
-  margin-top: 55px;
+  margin: 0;
+  padding: o;
+  margin-top: 50px;
   margin-right: 71px;
   margin-left: 72px;
   margin-bottom: 56px;
@@ -537,16 +539,7 @@ body {
   padding: 0;
   padding-top: 8px;
   padding-bottom: 5px;
-  width: 338px;
-}
-
-.sorting-container .button {
-  margin: 0;
-  padding: 0;
-  width: 48px;
-  height: 48px;
-  margin-bottom: 57px;
-  margin-left: 71px;
+  margin-right: 211px;
 }
 
 .product-list {
@@ -606,12 +599,6 @@ body {
 .filter-pagination {
   padding-top: 20px;
   padding-bottom: 18px;
-}
-
-.select-control {
-  margin: 0;
-  margin-left: 71px;
-  align-self: center;
 }
 
 .pagination-link {
