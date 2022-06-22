@@ -550,31 +550,20 @@ body {
 }
 
 .product-list {
-  
-}
-
-.product-card-amara {
-  width: 340px;
-  margin-left: 73px;
-}
-
-.product-card-villas {
-  width: 340px;
-}
-
-.product-card-desert {
-  width: 340px;
-}
-
-.product-card-greenTree {
-  width: 340px;
+  display: grid;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  grid-template-columns: 340px 340px 340px;
+  gap: 18px;
+  margin-bottom: 96px;
 }
 
 .page-pagination {
   display: flex;
   margin: 0;
   padding: 0;
-  padding-top: 96px;
+  padding-top: 66px;
 
 }
 
