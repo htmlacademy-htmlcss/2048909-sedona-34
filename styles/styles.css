@@ -563,14 +563,13 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  padding-top: 66px;
-
 }
 
 .pagination {
   display: flex;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
+  margin-left: 73px;
   list-style-type: none;
 }
 
@@ -590,11 +589,13 @@ body {
 }
 
 .pagination-link {
-  display: block;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding: 12px 24px;
   box-sizing: border-box;
   width: 60px;
   height: 60px;
-  padding: 12px 24px;
   background: #82B3D3;
   border: 1px solid #82B3D3;
   border-radius: 4px;
