@@ -518,7 +518,7 @@ body {
 
 .button-catalog {
   display: flex;
-  flex-direction: Column;
+  flex-direction: column;
   margin-right: 70px;
   margin-left: 70px;
   padding: 0;
@@ -527,65 +527,67 @@ body {
 .filter-menu {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: o;
   margin-top: 50px;
-  margin-bottom: 57px;
+  margin-right: 71px;
   margin-left: 72px;
-  margin-right: 191px;
+  margin-bottom: 56px;
 }
 
 .filter-menu-title {
   margin: 0;
   padding: 0;
-  width: 338px;
-}
-
-.sorting-container .button {
-  margin: 0;
-  padding: 0;
-  width: 48px;
-  height: 48px;
-  margin-bottom: 57px;
-  margin-left: 71px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  margin-right: 211px;
 }
 
 .product-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
+  display: grid;
   list-style-type: none;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  grid-template-columns: 340px 340px 340px;
+  gap: 18px;
+  margin-bottom: 96px;
 }
 
-.product-card-amara {
-  width: 340px;
-  margin-left: 73px;
+.wrapper {
+  margin: auto;
 }
 
-.product-card-villas {
-  width: 340px;
+.inner-description {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  column-gap: 20px;
+  row-gap: 16px;
 }
 
-.product-card-desert {
-  width: 340px;
-}
-
-.product-card-greenTree {
-  width: 340px;
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 16px;
 }
 
 .page-pagination {
   display: flex;
+  width: 1056px;
   margin: 0;
   padding: 0;
-  padding-top: 96px;
-
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 73px;
+  margin-right: 71px;
+  margin-bottom: 25px;
 }
 
 .pagination {
   display: flex;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   list-style-type: none;
 }
@@ -595,22 +597,18 @@ body {
 }
 
 .filter-pagination {
-  margin-left: auto;
-  align-self: center;
-}
-
-.select-control {
-  margin: 0;
-  margin-left: 71px;
-  align-self: center;
+  padding-top: 20px;
+  padding-bottom: 18px;
 }
 
 .pagination-link {
-  display: block;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding: 12px 24px;
   box-sizing: border-box;
   width: 60px;
   height: 60px;
-  padding: 12px 24px;
   background: #82B3D3;
   border: 1px solid #82B3D3;
   border-radius: 4px;
