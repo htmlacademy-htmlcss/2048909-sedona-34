@@ -288,10 +288,11 @@ body {
 .search {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
-
+  padding-top: 91px;
+  padding-bottom: 93px;
 }
 
 .interest {
@@ -300,25 +301,20 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 91px;
-  padding-right: 451px;
-  padding-left: 452px;
   margin-bottom: 29px;
 }
 
 .best {
   font-size: 22px;
   line-height: 26px;
+  margin: 0;
   text-align: center;
-  padding-right: 304px;
-  padding-left: 304px;
   margin-bottom: 56px;
 }
 
 .button-search {
-  padding-right: 313px;
-  padding-left: 313px;
-  margin-bottom: 93px;
+  margin: 0;
+  padding: 0;
 }
 
 .appointment {
