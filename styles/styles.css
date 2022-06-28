@@ -434,13 +434,18 @@ body {
 
 .page-footer-container {
   display: flex;
-  width: 1200px;
   margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-socials {
   width: 170px;
-  margin-right: 250px;
+  margin: 0;
+  margin-right: 237px;
 }
 
 .footer-social-list {
@@ -449,7 +454,6 @@ body {
   margin: 0 auto;
   padding: 0;
   list-style-type: none;
-  padding-top: 58px;
 }
 
 .footer-social-item {
@@ -471,7 +475,7 @@ body {
 }
 
 .logo-html {
-  margin-left: 72px;
+  margin: 0;
   max-width: 115px;
   padding-top: 58px;
 }
