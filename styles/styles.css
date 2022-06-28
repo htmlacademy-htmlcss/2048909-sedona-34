@@ -423,6 +423,10 @@ body {
   margin-bottom: 46px;
 }
 
+.appointment-catalog-form-email {
+  display: flex;
+}
+
 .page-footer {
   font-size: 40px;
   line-height: 40px;
