@@ -119,22 +119,32 @@ body {
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   margin: 0;
   padding: 0;
-  width: 450px;
+  width: 485px;
   list-style-type: none;
 }
 
 .navigation-link {
   display: block;
   padding-top: 20px;
-  margin-right: 34px;
   padding-bottom: 17px;
+  margin-right: 34px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.navigation-link:nth-child(3) {
+  margin-right: 0;
 }
 
 .navigation-user {
   max-width: 320px;
   margin-left: auto;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .button {
