@@ -332,8 +332,17 @@ body {
 }
 
 .button-search {
-  margin: 0;
-  padding: 0;
+  display: inline-block;
+  padding: 12px 15px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background: #756157;
+  border-radius: 4px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .appointment {
