@@ -574,15 +574,11 @@ body {
 .page-pagination {
   display: flex;
   width: 1056px;
-  margin: 0;
   padding: 0;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
-  margin-left: 73px;
-  margin-right: 71px;
-  margin-bottom: 25px;
+  margin: 30px 71px 25px 73px;
 }
 
 .pagination {
