@@ -85,17 +85,22 @@ body {
   margin-bottom: -5px;
 }
 
+.container-title {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 63px;
+  padding-bottom: 90px;
+}
+
 .main-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  text-align: center;
-  padding: 0;
-  margin: 0 auto;
-  padding-top: 63px;
-  padding-bottom: 31px;
   max-width: 620px;
+  margin: 0;
+  margin-bottom: 31px;
 }
 
 .main-paragraph {
@@ -103,8 +108,6 @@ body {
   line-height: 26px;
   padding: 0;
   margin: 0;
-  text-align: center;
-  padding-bottom: 90px;
 }
 
 .navigation {
