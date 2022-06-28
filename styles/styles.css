@@ -322,6 +322,7 @@ body {
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  margin: 0 auto;
   text-align: center;
   padding: 94px 200px;
 }
@@ -333,6 +334,7 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   text-align: center;
+  margin: 0;
   margin-bottom: 29px;
 }
 
@@ -341,7 +343,12 @@ body {
   line-height: 26px;
   color: #FFFFFF;
   text-align: center;
+  margin: 0;
   margin-bottom: 46px;
+}
+
+.appointment-form-email {
+  display: flex;
 }
 
 .inner-header {
