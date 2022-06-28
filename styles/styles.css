@@ -417,23 +417,35 @@ body {
 }
 
 .button-detailed {
+  padding: 9px 15px;
   background: #756157;
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  text-transform: uppercase;
   color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .button-favourites {
+  padding: 9px 15px;
   background: #82B3D3;
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  text-transform: uppercase;
   color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-favourites-current {
+  background: #7DB54F;
 }
 
 .appointment-catalog {
