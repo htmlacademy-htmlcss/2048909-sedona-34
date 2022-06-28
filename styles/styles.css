@@ -134,6 +134,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+  text-decoration: none;
 }
 
 .navigation-link:nth-child(3) {
@@ -147,11 +148,21 @@ body {
   font-size: 20px;
 }
 
-.button {
-  display: block;
+.button-user {
+  display: inline-block;
   padding: 9px 15px;
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin: 14px 0;
+  width: 160px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #756157;
+  border-radius: 4px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .logo-welcome {
