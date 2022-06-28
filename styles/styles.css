@@ -291,8 +291,8 @@ body {
   margin: 0 auto;
   padding: 0;
   text-align: center;
-  padding-top: 91px;
-  padding-bottom: 93px;
+  margin-top: 91px;
+  margin-bottom: 93px;
 }
 
 .interest {
