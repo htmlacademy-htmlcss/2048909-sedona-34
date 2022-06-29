@@ -172,7 +172,7 @@ body {
 }
 
 .navigation-user .navigation-item:nth-child(2) .navigation-link{
-  background-image: url('../images/favorite2.svg');
+  background-image: url('../images/favourites.svg');
   background-repeat: no-repeat;
   background-position: center;
   padding-left: 18px;
@@ -468,6 +468,23 @@ body {
 
 .button-favourites-current {
   background: #7DB54F;
+}
+
+.product-stars {
+  display: inline-block;
+  background-image: url("../images/star.svg");
+  background-repeat: space;
+  margin: auto 0;
+  width: 89px;
+  height: 17px;
+}
+
+.product-list .product-card:nth-child(3) .product-stars {
+  width: 66px;
+}
+
+.product-list .product-card:nth-child(4) .product-stars {
+  width: 42px;
 }
 
 .rating {
