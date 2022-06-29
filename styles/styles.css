@@ -662,11 +662,33 @@ body {
 .filter-menu {
   display: flex;
   margin: 0;
-  padding: o;
+  padding: 0;
+  justify-content: center;
   margin-top: 50px;
-  margin-right: 71px;
-  margin-left: 72px;
   margin-bottom: 56px;
+}
+
+.select {
+  display: flex;
+  margin: 0;
+  padding: o;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.select-control {
+margin-right: 207px;
+}
+
+.sorting-type {
+  margin-right: 71px;
+}
+
+.filter-menu .button {
+  width: 56px;
+  height: 44px;
+  outline: 5px solid #ff6347;
+  outline-offset: -5px;
 }
 
 .filter-menu-title {
