@@ -541,50 +541,70 @@ body {
 
 .page-footer-container {
   display: flex;
-  margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  margin-top: 45px;
+  margin-bottom: 35px;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-socials {
-  width: 170px;
-  margin: 0;
+  width: 200px;
   margin-right: 237px;
 }
 
 .footer-social-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   list-style-type: none;
+  flex-direction: row;
+  align-items: center;
 }
 
 .footer-social-item {
-  width: 22px;
-  height: 17px;
-  padding-top: 58px;
   margin-right: 27px;
-  margin-bottom: 27px;
+  padding: 0;
 }
 
 .footer-social-item:nth-child(3n) {
   margin-right: 0;
 }
 
+.footer-social-link {
+  display: block;
+  width: 47px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-vk {
+  background-image: url("../images/socials-vk.svg");
+  background-size: 24px 14px;
+}
+
+.footer-social-tg {
+  background-image: url("../images/socials-telegram.svg");
+  background-size: 18px 15px;
+}
+
+.footer-social-yt {
+  background-image: url("../images/socials-youtybe.svg");
+  background-size: 22px 17px;
+}
+
 .footer-contact {
   width: 331px;
   margin-right: 236px;
-  padding-top: 58px;
 }
 
 .logo-html {
   margin: 0;
   max-width: 115px;
-  padding-top: 58px;
 }
 
 .container-catalog {
