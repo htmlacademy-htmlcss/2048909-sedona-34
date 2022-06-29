@@ -758,8 +758,15 @@ margin-right: 207px;
 }
 
 .filter-pagination {
-  padding-top: 20px;
-  padding-bottom: 18px;
+  display: flex;
+  margin: 0;
+  padding: o;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filter-pagination-title {
+  margin-right: 71px;
 }
 
 .pagination-link {
