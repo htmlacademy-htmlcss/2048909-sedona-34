@@ -160,12 +160,11 @@ body {
   left: 24px;
   top: 15px;
   font-size: 10px;
-  line-height: 13px;
+  line-height: 20px;
   color: #FFFFFF;
   background: #7DB54F;
   border-radius: 10px;
   text-align: center;
-  
   letter-spacing: -0.1em;
 }
 
