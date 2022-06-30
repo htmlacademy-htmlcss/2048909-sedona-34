@@ -323,7 +323,7 @@ body {
 
 .color-block {
   background: rgba(131, 179, 211, 0.12);
-  min-width: 400px;
+  width: 400px;
 }
 
 .color-road {
