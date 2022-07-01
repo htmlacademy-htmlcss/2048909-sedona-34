@@ -155,25 +155,27 @@ body {
 }
 
 .navigation-link:hover {
-  background-color: #68A2CA;
-  color: #FFFFFF;
-  border: 1px solid #82B3D3;
-  border-radius: 4px;
+  color: #756157;
+}
+
+.navigation-link:visited {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .navigation-link:focus  {
-  background-color: #68A2CA;
-  color: #FFFFFF;
-  border: 1px solid #82B3D3;
-  border-radius: 4px;
+  color: #756157;
 }
 
 .navigation-link:hover .navigation-icon {
-  fill: #FFFFFF;
+  fill: #756157;
+}
+
+.navigation-link:visited .navigation-icon {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .navigation-link:focus .navigation-icon {
-  fill: #FFFFFF;
+  fill: #756157;
 }
 
 .navigation-user .navigation-item:nth-child(1) .navigation-link {
