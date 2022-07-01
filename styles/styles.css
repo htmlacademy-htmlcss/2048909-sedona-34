@@ -152,13 +152,14 @@ body {
   font-size: 20px;
   line-height: 26px;
   text-decoration: none;
+  color: #000000;
 }
 
 .navigation-link:hover {
   color: #756157;
 }
 
-.navigation-link:visited {
+.navigation-link:active {
   color: rgba(117, 97, 87, 0.3);
 }
 
@@ -170,7 +171,7 @@ body {
   fill: #756157;
 }
 
-.navigation-link:visited .navigation-icon {
+.navigation-link:active .navigation-icon {
   fill: rgba(117, 97, 87, 0.3);
 }
 
@@ -226,6 +227,24 @@ body {
   border: none;
   text-decoration: none;
   cursor: pointer;
+}
+
+.navigation-item:hover .button-user {
+  background: #615048;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.navigation-item:active .button-user {
+  background: #756157;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.navigation-item:focus .button-user {
+  background: #615048;
+  border-radius: 4px;
+  color: #FFFFFF;
 }
 
 .logo-welcome {
