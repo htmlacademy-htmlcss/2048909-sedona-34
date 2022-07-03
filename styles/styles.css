@@ -413,6 +413,24 @@ body {
   cursor: pointer;
 }
 
+.button-search:hover {
+  background: #615048;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.button-search:active {
+  background: #756157;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-search:focus {
+  background: #615048;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
 .appointment {
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
