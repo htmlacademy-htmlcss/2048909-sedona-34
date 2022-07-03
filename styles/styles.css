@@ -138,16 +138,19 @@ body {
   list-style-type: none;
   position: relative;
 }
-/* не срабатывает почему то
-.navigation-list::after .navigation-link-current {
+
+.navigation-link-current::before {
   position: absolute;
-  width: 68px;
-  height: 0;
-  left: 256px;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
   top: 65px;
-  border: 2px solid #756257;
+  height: 2px;
+  background-color: #756257;
+  width: 68px;
+  content: "";
 }
-*/
+
 .navigation-list .navigation-item:nth-child(3) .navigation-link {
   margin-right: 0;
 }
