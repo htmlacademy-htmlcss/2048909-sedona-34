@@ -586,6 +586,24 @@ body {
   text-transform: uppercase;
 }
 
+.button-detailed:hover {
+  background: #615048;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.button-detailed:active {
+  background: #756157;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-detailed:focus {
+  background: #615048;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
 .button-favourites {
   display: inline-block;
   padding: 9px 15px;
@@ -601,10 +619,37 @@ body {
   text-transform: uppercase;
 }
 
+.button-favourites:hover {
+  background: #68A2CA;
+  color: #FFFFFF;
+}
+
+.button-favourites:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-favourites:focus {
+  background: #68A2CA;
+  color: #FFFFFF;
+}
+
 .button-favourites-current {
   background: #7DB54F;
 }
 
+.button-favourites-current:hover {
+  background: #6C9E42;
+}
+
+.button-favourites-current:active {
+  background: #7DB54F;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-favourites-current:focus {
+  background: #6C9E42;
+}
 .product-stars {
   display: inline-block;
   background-image: url("../images/star.svg");
