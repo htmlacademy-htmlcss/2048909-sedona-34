@@ -527,26 +527,32 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  margin-bottom: 40px;
 }
 
 .breadcrumbs-item {
-  margin-right: 26px;
-  margin-left: 70px;
-  margin-bottom: 40px;
+  margin-right: 10px;
   fill: #FFFFFF;
   cursor: pointer;
 }
 
+.breadcrumbs-item:nth-child(1) {
+  margin-left: 72px;
+}
+
 .breadcrumbs-item:hover {
   fill: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .breadcrumbs-item:active {
   fill: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .breadcrumbs-item:focus {
   fill: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .select-control {
