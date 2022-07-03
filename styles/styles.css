@@ -495,19 +495,19 @@ body {
 
 .button-appointment:hover {
   background: #68A2CA;
-  border-radius: 4px;
+  border-radius: 0 10px 10px 0;
   color: #FFFFFF;
 }
 
 .button-appointment:active {
   background: #82B3D3;
-  border-radius: 4px;
+  border-radius: 0 10px 10px 0;
   color: rgba(255, 255, 255, 0.3);
 }
 
 .button-appointment:focus {
   background: #68A2CA;
-  border-radius: 4px;
+  border-radius: 0 10px 10px 0;
   color: #FFFFFF;
 }
 
