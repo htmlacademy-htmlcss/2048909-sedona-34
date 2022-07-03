@@ -533,6 +533,20 @@ body {
   margin-right: 26px;
   margin-left: 70px;
   margin-bottom: 40px;
+  fill: #FFFFFF;
+  cursor: pointer;
+}
+
+.breadcrumbs-item:hover {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-item:active {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+.breadcrumbs-item:focus {
+  fill: #FFFFFF;
 }
 
 .select-control {
