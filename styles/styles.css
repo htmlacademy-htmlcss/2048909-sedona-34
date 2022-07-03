@@ -682,19 +682,20 @@ body {
   align-items: center;
 }
 
-.footer-social-vk {
-  background-image: url("../images/socials-vk.svg");
-  background-size: 24px 14px;
+.footer-social-link {
+  fill: #83B3D3;
 }
 
-.footer-social-tg {
-  background-image: url("../images/socials-telegram.svg");
-  background-size: 18px 15px;
+.footer-social-link:hover {
+  fill: #68A2CA;
 }
 
-.footer-social-yt {
-  background-image: url("../images/socials-youtybe.svg");
-  background-size: 22px 17px;
+.footer-social-link:active  {
+  fill: rgba(104, 162, 202, 0.3);
+}
+
+.footer-social-link:focus {
+  fill: #68A2CA;
 }
 
 .footer-contact {
@@ -702,9 +703,42 @@ body {
   margin-right: 236px;
 }
 
+.footer-contact-phone {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-contact-phone:hover {
+  color: #756157;
+}
+
+.footer-contact-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.footer-contact-phone:focus {
+  color: #756157;
+}
+
 .logo-html {
   margin: 0;
   max-width: 115px;
+}
+
+.logo-html-link:hover {
+  fill: #756157;
+}
+
+.logo-html-link:active {
+  fill: rgba(117, 97, 87, 0.3);
+}
+
+.logo-html-link:focus {
+  fill: #756157;
+}
+
+.footer-logo:hover {
+  background: #756157;
 }
 
 .container-catalog {
