@@ -493,6 +493,24 @@ body {
   color: #FFFFFF;
 }
 
+.button-appointment:hover {
+  background: #68A2CA;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.button-appointment:active {
+  background: #82B3D3;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-appointment:focus {
+  background: #68A2CA;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
 .inner-header-title {
   font-weight: 700;
   font-size: 60px;
