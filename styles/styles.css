@@ -136,8 +136,18 @@ body {
   padding: 0;
   width: 485px;
   list-style-type: none;
+  position: relative;
 }
-
+/* не срабатывает почему то
+.navigation-list::after .navigation-link-current {
+  position: absolute;
+  width: 68px;
+  height: 0;
+  left: 256px;
+  top: 65px;
+  border: 2px solid #756257;
+}
+*/
 .navigation-list .navigation-item:nth-child(3) .navigation-link {
   margin-right: 0;
 }
