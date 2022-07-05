@@ -482,12 +482,42 @@ body {
   flex-grow: 1;
 }
 
+.field {
+  margin: 0;
+  padding: 20px 0 19px 22px;
+  font: inherit;
+  color: #000000;
+  background: #F2F2F2;
+  border-radius: 10px 0 0 10px;
+  width: 600px;
+  border: 0;
+}
+
+.field:hover {
+  background: #E6E6E6;
+  border-radius: 4px;
+}
+.field:focus {
+  background: #E6E6E6;
+  border-color: #83B3D3;
+  border: 3px solid #83B3D3;
+}
+
+.field:invalid {
+  box-shadow: none;
+}
+
+.field:focus:invalid {
+  border-color: #ea5454;
+}
+
 .button-appointment {
+  margin: 0;
   width: 200px;
-  height: 60px;
   background: #82B3D3;
   border-radius: 0 10px 10px 0;
   padding: 12px 15px;
+  line-height: 36px;
 }
 
 .inner-header {
