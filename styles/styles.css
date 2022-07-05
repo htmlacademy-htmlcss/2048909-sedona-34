@@ -147,7 +147,7 @@ body {
   top: 65px;
   height: 2px;
   background-color: #756257;
-  width: 68px;
+  width: calc(100% - 34px);
   content: "";
 }
 
