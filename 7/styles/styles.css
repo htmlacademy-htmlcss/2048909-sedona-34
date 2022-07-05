@@ -86,15 +86,15 @@ body {
 
 .logo {
   display: block;
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 
 .page-logo {
   display: block;
+  position: relative;
   margin-right: 47px;
   width: 139px;
-  margin-bottom: -5px;
 }
 
 .container-title {
@@ -147,7 +147,7 @@ body {
   top: 65px;
   height: 2px;
   background-color: #756257;
-  width: 68px;
+  width: calc(100% - 34px);
   content: "";
 }
 
@@ -194,20 +194,20 @@ body {
 
 .navigation-user .navigation-item:nth-child(1) .navigation-link {
   margin: 0;
-  padding: 24px 12px;
+  padding-right: 24px;
 }
 
 .navigation-user .navigation-item:nth-child(2) .navigation-link {
   margin: 0;
-  margin-right: 19px;
-  padding: 24px 12px;
+  margin-right: 33px;
+
 }
 
 .favorite-numbe {
   position: absolute;
   width: 20px;
   height: 20px;
-  left: 24px;
+  left: 14px;
   top: 15px;
   font-size: 10px;
   line-height: 20px;
