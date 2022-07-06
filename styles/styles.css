@@ -478,7 +478,7 @@ body {
 
 .appointment-form-email {
   display: flex;
-  margin: 0 auto;
+  margin: 0;
   flex-grow: 1;
 }
 
@@ -495,12 +495,17 @@ body {
 
 .field:hover {
   background: #E6E6E6;
-  border-radius: 4px;
 }
 .field:focus {
   background: #E6E6E6;
   border-color: #83B3D3;
-  border: 3px solid #83B3D3;
+}
+
+.field:disabled,
+.field:disabled:hover {
+  color: #595959;
+  background-color: #FFFFFF;
+  border-color: #000000;
 }
 
 .field:invalid {
@@ -528,7 +533,6 @@ body {
 
 .button-appointment:hover {
   background: #68A2CA;
-  border-radius: 0 10px 10px 0;
   color: #FFFFFF;
 }
 
