@@ -554,8 +554,6 @@ body {
   font-size: 60px;
   line-height: 78px;
   text-transform: uppercase;
-  padding-top: 35px;
-  padding-left: 70px;
   margin-bottom: 10px;
 }
 
@@ -571,10 +569,6 @@ body {
   margin-right: 10px;
   fill: #FFFFFF;
   cursor: pointer;
-}
-
-.breadcrumbs-item:nth-child(1) {
-  margin-left: 72px;
 }
 
 .breadcrumbs-item:hover {
@@ -852,8 +846,9 @@ body {
   background-size: cover;
   border-radius: 0;
   background-repeat: no-repeat;
-  width: 1200px;
-  min-height: 403px;
+  width: 1060px;
+  padding: 70px;
+  padding-top: 35px;
 }
 
 .catalog-products {
@@ -885,10 +880,7 @@ body {
 .catalog-filter-list {
   margin: 0;
   padding: 0;
-}
-
-.catalog-filter-item:not(:last-child) {
-  margin-bottom: 15px;
+  list-style-type: none;
 }
 
 .catalog-filter-infrastructure {
@@ -896,11 +888,12 @@ body {
   margin: 0;
   padding: 0;
   margin-right: 70px;
-  margin-left: 70px;
   border: 0;
 }
 
 .catalog-filter-price {
+  padding: 0;
+  margin: 0;
   width: 289px;
   margin-right: 70px;
   border: 0;
@@ -915,7 +908,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   padding: 0;
-  padding-bottom: 71px;
+  margin: 0;
 }
 
 .button-apply {
@@ -967,7 +960,6 @@ body {
   display: flex;
   align-items: center;
   margin: 55px 71px 57px 72px;
-
 }
 
 .select {
@@ -1182,20 +1174,6 @@ body {
 .select-control {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
-}
-
-.catalog-filter-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.catalog-filter-price {
-  margin: 0;
-  padding: 0;
-  padding-bottom: 71px;
-  margin-right: 70px;
-  border: none;
 }
 
 .range-wrapper-inputs {
