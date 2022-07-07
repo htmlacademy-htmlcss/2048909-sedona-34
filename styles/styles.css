@@ -1144,7 +1144,20 @@ body {
   background-repeat: no-repeat;
   background-position: right 21px center;
   appearance: none;
+}
 
+.pagination-select-control:hover,
+.pagination-select-control:focus {
+  border-color: rgba(104, 162, 202, 1);
+}
+
+.pagination-select-control:active {
+  border-color: rgba(63, 94, 114, 1);
+}
+
+.pagination-select-control:disabled {
+  border-color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .pagination-link {
