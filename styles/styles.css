@@ -867,7 +867,7 @@ body {
 
 .catalog-filter-type {
   margin: 0;
-  margin-right: 70px;
+  margin-right: 175px;
   padding: 0;
   width: 125px;
   border: 0;
@@ -915,8 +915,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-right: 70px;
-  margin-left: 70px;
   padding: 0;
   padding-bottom: 71px;
 }
@@ -933,6 +931,19 @@ body {
   min-height: 48px;
 }
 
+.button-apply:hover {
+  background: #68A2CA;
+}
+
+.button-apply:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-apply:focus {
+  background: #68A2CA;
+}
+
 .button-off {
   margin: 0;
   padding: 0;
@@ -941,6 +952,10 @@ body {
   line-height: 20px;
   text-transform: capitalize;
   background-color: transparent;
+}
+
+.button-off:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .filter-menu {
