@@ -850,7 +850,7 @@ body {
 
 .container-catalog {
   background-image: url("../images/filter-background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   border-radius: 0;
   background-repeat: no-repeat;
   width: 1200px;
