@@ -960,27 +960,41 @@ body {
 
 .filter-menu {
   display: flex;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  margin: 55px 71px 57px 72px;
+
+}
+
+.sorting-container {
+  display: flex;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 56px;
+
+  padding-left: 71px;
 }
 
 .select {
+  position: relative;
   display: flex;
-  margin: 0;
-  padding: o;
-  justify-content: space-around;
+  margin-right: auto;
   align-items: center;
+  width: 290px;
 }
 
 .select-control {
-margin-right: 207px;
-}
-
-.sorting-type {
-  margin-right: 71px;
+  width: 100%;
+  padding: 14px 20px;
+  padding-right: 48px;
+  background-color: #FFFFFF;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  font: inherit;
+  background-image: url("../images/down-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 21px center;
+  appearance: none;
 }
 
 .filter-menu .button {
@@ -1013,9 +1027,12 @@ margin-right: 207px;
 .filter-menu-title {
   margin: 0;
   padding: 0;
-  padding-top: 8px;
-  padding-bottom: 5px;
-  margin-right: 211px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-right: 191px;
+  white-space: nowrap;
 }
 
 .product-list {
