@@ -748,15 +748,14 @@ body {
 
 .page-footer-container {
   display: flex;
-  margin-top: 45px;
-  margin-bottom: 35px;
+  padding: 40px 70px 30px 70px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
 .footer-socials {
-  width: 200px;
+  max-width: 190px;
   margin-right: 237px;
 }
 
@@ -771,7 +770,6 @@ body {
 }
 
 .footer-social-item {
-  margin-right: 27px;
   padding: 0;
 }
 
