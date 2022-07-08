@@ -142,7 +142,7 @@ body {
 .navigation-link-current::before {
   position: absolute;
   bottom: 0;
-  top: 65px;
+  top: 63px;
   height: 2px;
   background-color: #756257;
   width: calc(100% - 2px);
