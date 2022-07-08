@@ -124,7 +124,7 @@ body {
 
 .navigation {
   display: flex;
-  width: 1056px;
+  width: 1060px;
   margin: 0 auto;
 }
 
@@ -134,7 +134,7 @@ body {
   align-items: flex-start;
   margin: 0;
   padding: 0;
-  width: 485px;
+  max-width: 485px;
   list-style-type: none;
   position: relative;
 }
