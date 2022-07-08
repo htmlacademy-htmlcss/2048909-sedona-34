@@ -198,7 +198,6 @@ body {
 .navigation-user .navigation-item:nth-child(2) .navigation-link {
   margin: 0;
   margin-right: 33px;
-
 }
 
 .favorite-number {
@@ -590,10 +589,19 @@ body {
   border-radius: 4px;
 }
 
+.product-card-image {
+  display: block;
+}
+
+.product-card-title-link {
+  text-decoration: none;
+}
+
 .product-card-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  color: #000000;
 }
 
 .button-detailed {
@@ -905,9 +913,9 @@ body {
 .button-catalog {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   padding: 0;
   margin: 0;
+  padding-top: 61px;
 }
 
 .button-apply {
@@ -1008,6 +1016,10 @@ body {
   height: 48px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+}
+
+.control {
+  cursor: pointer;
 }
 
 .filter-menu .button-current {
@@ -1237,13 +1249,19 @@ body {
   border: 0;
 }
 
-.range-toggle:hover,
+.range-toggle:hover {
+  background: #FFFFFF;
+}
+
 .range-toggle:active {
-  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid #83B3D3;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
 }
 
 .range-toggle:focus {
-  background-color: #FFFFFF;
+  border: 3px solid #83B3D3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 }
 
 .toggle-min {
