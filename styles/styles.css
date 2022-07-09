@@ -1373,3 +1373,12 @@ body {
   background-position: center;
   cursor: pointer;
 }
+
+.modal-title {
+  margin: 0;
+  margin-bottom: 63px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
