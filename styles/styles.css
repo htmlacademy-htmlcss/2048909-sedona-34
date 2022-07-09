@@ -1357,3 +1357,19 @@ body {
 .modal-auth {
   width: 575px;
 }
+
+.modal-close-button {
+  position: absolute;
+  padding: 0;
+  top: 54px;
+  right: 70px;
+  width: 53px;
+  height: 53px;
+  background-color: #F2F2F2;
+  border-radius: 50%;
+  border: none;
+  background-image: url("../images/cross-icons.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
