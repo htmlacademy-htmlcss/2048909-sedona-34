@@ -214,10 +214,50 @@
         <button class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
         </button>
-        <section class="modal-content">
+        <form class="modal-content" action="https://echo.htmlacademy.ru/" method="post">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-        </section>
-
+          <div class="modal-shape">
+            <label class="arrival-date" for="arrival">Дата заезда</label>
+            <input class="text-input" id="arrival" type="text" placeholder="27 апреля 2020">
+            <button class="date-button" type="button">
+              <span class="visually-hidden">Календарь</span>
+            </button>
+            <p class="date-text">Мы не можем отправить вас в прошлое</p>
+          </div>
+          <div class="modal-shape">
+            <label class="departure-date" for="arrival">Дата выезда</label>
+            <input class="text-input" id="arrival" type="text" placeholder="1 сентября 2021">
+            <button class="date-button" type="button">
+              <span class="visually-hidden">Календарь</span>
+            </button>
+            <p class="date-text">На эти даты есть свободные номера. Пока есть.</p>
+          </div>
+          <div class="grownup">
+            <label class="grownup-label" for="">Взрослые:</label>
+            <span class="grownup-box">
+              <button class="grownup-button minus">-
+                <span class="visually-hidden">Минус</span>
+              </button>
+              <input class="grownup-number" id="number-minus" type="number" value="2">
+              <button class="grownup-button plus">+
+                <span class="visually-hidden">Плюс</span>
+              </button>
+            </span>
+          </div>
+          <div class="child">
+            <label class="child-label" for="">Дети:</label>
+            <span class="child-box">
+              <button class="child-button minus">-
+                <span class="visually-hidden">Минус</span>
+              </button>
+              <input class="child-number" id="number-minus" type="number" value="1">
+              <button class="child-button plus">+
+                <span class="visually-hidden">Плюс</span>
+              </button>
+            </span>
+          </div>
+          <a class="button button-find" href="#">Найти</a>
+        </form>
       </div>
     </div>
   </body>
