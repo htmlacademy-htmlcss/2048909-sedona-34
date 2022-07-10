@@ -1526,3 +1526,13 @@ body {
   margin-right: 43px;
   align-items: center;
 }
+
+.button-find {
+  width: 523px;
+  min-height: 60px;
+  background: #83B3D3;
+  border-radius: 10px;
+  border: 0;
+  color: #FFFFFF;
+  padding: 12px 26px;
+}
