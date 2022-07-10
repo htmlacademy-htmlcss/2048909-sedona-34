@@ -570,6 +570,23 @@ body {
   cursor: pointer;
 }
 
+.breadcrumbs-icon {
+  display: block;
+  width: 5px;
+  height: 8px;
+  margin-right: 10px;
+  padding-top: 6px;
+}
+
+.breadcrumbs-icon::after {
+  background-image: url(../images/right-arrow.svg);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  padding-right: 25px;
+  content: "";
+}
+
 .breadcrumbs-item:hover {
   fill: rgba(255, 255, 255, 0.6);
   color: rgba(255, 255, 255, 0.6);
@@ -1345,10 +1362,10 @@ body {
   z-index: 2;
 }
 
-/* стиль для закрытия модального окна
+/* стиль для закрытия модального окна*/
 .modal-container-close {
   display: none;
-}*/
+}
 
 .modal {
   position: fixed;
