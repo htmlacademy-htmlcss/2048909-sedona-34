@@ -1593,3 +1593,26 @@ body {
   /*display: none;*/
   z-index: 1;
 }
+
+.tooltip-text::after {
+  content:'';
+  background-image: url("../images/icon/tooltip-arrow.svg");
+  width: 19px;
+  height: 9px;
+  position: absolute;
+  bottom: 100%;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tooltip-toggle:hover
+.tooltip-toggle:focus {
+  background-color: #68A2CA;
+}
+
+.tooltip-toggle:hover + .tooltip-text
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
