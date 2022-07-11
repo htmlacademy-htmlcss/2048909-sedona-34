@@ -565,20 +565,19 @@ body {
 }
 
 .breadcrumbs-item {
-  margin-right: 10px;
+  position: relative;
+  margin-right: 25px;
   fill: #FFFFFF;
   cursor: pointer;
 }
 
-.breadcrumbs-icon {
-  display: block;
+.breadcrumbs-item:not(:last-child)::after {
+  position: absolute;
   width: 5px;
   height: 8px;
-  margin-right: 10px;
-  padding-top: 6px;
-}
-
-.breadcrumbs-icon::after {
+  right: 10px;
+  top: 7px;
+  left: 20px;
   background-image: url(../images/right-arrow.svg);
   background-repeat: no-repeat;
   margin: 0;
@@ -1034,6 +1033,10 @@ body {
   border-radius: 4px;
 }
 
+.filter-menu .button:not(:last-child) {
+  margin-right: 9px;
+}
+
 .control {
   cursor: pointer;
 }
@@ -1367,6 +1370,7 @@ body {
   left: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
@@ -1525,14 +1529,10 @@ body {
   padding: 24px 29px 25px 19px;
   display: flex;
   align-items: center;
-  height: 13px;
-  min-width: 1px;
 }
 
 .plus {
   padding: 18px 19px 19px 30px;
-  height: 13px;
-  width: 13px;
 }
 
 .grownup-number,
@@ -1610,7 +1610,7 @@ body {
   position: absolute;
   top: 30px;
   left: -155px;
-  /*display: none;*/
+  display: none;
   z-index: 1;
 }
 
@@ -1652,12 +1652,12 @@ body {
 
 .text-input:active {
   background-color: #FFFFFF;
-  border: 2px solid #000000;
+  border: #000000;
 }
 
 .text-input:focus {
   background: #E6E6E6;
-  border: 3px solid #83B3D3;
+  border: #83B3D3;
 }
 
 .button-find:hover {
@@ -1671,7 +1671,7 @@ body {
 
 .button-find:focus {
   background-color: #68A2CA;
-  border: 3px solid #756257;
+  border:  #756257;
 }
 
 .butten-minus:hover {
@@ -1679,12 +1679,12 @@ body {
 }
 
 .butten-minus:active {
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .butten-minus:focus {
   opacity: 1;
-  border: 3px solid #83B3D3;
+  border: #83B3D3;
 }
 
 .button-plus:hover {
@@ -1697,5 +1697,5 @@ body {
 
 .button-plus:focus {
   opacity: 1;
-  border: 3px solid #83B3D3;
+  border: #83B3D3;
 }
