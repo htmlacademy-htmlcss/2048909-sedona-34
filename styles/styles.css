@@ -1356,20 +1356,20 @@ body {
   top: 0;
   left: 0;
   display: flex;
+  justify-content: center;
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
   z-index: 2;
 }
 
-/* стиль для закрытия модального окна*/
+/* стиль для закрытия модального окна
 .modal-container-close {
   display: none;
-}
+}*/
 
 .modal {
   position: fixed;
-  margin: auto;
   padding: 62px 70px 70px;
   background-color: #ffffff;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
