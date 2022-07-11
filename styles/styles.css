@@ -1033,6 +1033,10 @@ body {
   border-radius: 4px;
 }
 
+.filter-menu .button:not(:last-child) {
+  margin-right: 9px;
+}
+
 .control {
   cursor: pointer;
 }
@@ -1610,7 +1614,7 @@ body {
   position: absolute;
   top: 30px;
   left: -155px;
-  /*display: none;*/
+  display: none;
   z-index: 1;
 }
 
