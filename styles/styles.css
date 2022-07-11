@@ -1377,10 +1377,10 @@ body {
   z-index: 2;
 }
 
-/* стиль для закрытия модального окна*/
+/* стиль для закрытия модального окна
 .modal-container-close {
   display: none;
-}
+}*/
 
 .modal {
   position: fixed;
@@ -1529,14 +1529,10 @@ body {
   padding: 24px 29px 25px 19px;
   display: flex;
   align-items: center;
-  height: 13px;
-  min-width: 1px;
 }
 
 .plus {
   padding: 18px 19px 19px 30px;
-  height: 13px;
-  width: 13px;
 }
 
 .grownup-number,
@@ -1683,12 +1679,12 @@ body {
 }
 
 .butten-minus:active {
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .butten-minus:focus {
   opacity: 1;
-  border: 3px solid #83B3D3;
+  border: #83B3D3;
 }
 
 .button-plus:hover {
@@ -1701,5 +1697,5 @@ body {
 
 .button-plus:focus {
   opacity: 1;
-  border: 3px solid #83B3D3;
+  border: #83B3D3;
 }
