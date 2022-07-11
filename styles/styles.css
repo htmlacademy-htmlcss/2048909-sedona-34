@@ -577,6 +577,7 @@ body {
   height: 8px;
   right: 10px;
   top: 7px;
+  left: 20px;
   background-image: url(../images/right-arrow.svg);
   background-repeat: no-repeat;
   margin: 0;
