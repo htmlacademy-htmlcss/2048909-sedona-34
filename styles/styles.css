@@ -1373,10 +1373,10 @@ body {
   z-index: 2;
 }
 
-/* стиль для закрытия модального окна
+/* стиль для закрытия модального окна*/
 .modal-container-close {
   display: none;
-}*/
+}
 
 .modal {
   position: fixed;
