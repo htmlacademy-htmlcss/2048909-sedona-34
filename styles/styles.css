@@ -1096,6 +1096,7 @@ body {
 }
 
 .page-pagination {
+  position: relative;
   display: flex;
   width: 1056px;
   padding: 0;
@@ -1103,6 +1104,15 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 30px 71px 25px 73px;
+}
+
+.page-pagination::before {
+  position: absolute;
+  top: -30px;
+  width: 1055px;
+  height: 1px;
+  content: "";
+  background-color: #E6E6E6;
 }
 
 .pagination {
@@ -1363,10 +1373,10 @@ body {
   z-index: 2;
 }
 
-/* стиль для закрытия модального окна
+/* стиль для закрытия модального окна*/
 .modal-container-close {
   display: none;
-}*/
+}
 
 .modal {
   position: fixed;
