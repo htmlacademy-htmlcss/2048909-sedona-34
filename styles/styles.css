@@ -191,21 +191,28 @@ body {
   fill: #756157;
 }
 
-.navigation-user .navigation-item:nth-child(1) .navigation-link {
+.navigation-link-search {
   margin: 0;
-  padding-right: 24px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 
-.navigation-user .navigation-item:nth-child(2) .navigation-link {
+.navigation-link-favorite {
   margin: 0;
   margin-right: 33px;
+  padding-right: 13px;
+  padding-left: 12px;
+}
+
+.navigation-user .navigation-item:last-child {
+  margin: 0;
 }
 
 .favorite-number {
   position: absolute;
   width: 20px;
   height: 20px;
-  left: 14px;
+  left: 25px;
   top: 15px;
   font-size: 10px;
   line-height: 20px;
@@ -225,9 +232,9 @@ body {
 
 .button-user {
   display: inline-block;
-  padding: 9px 14px;
+  padding: 9px 15px;
   margin-top: 14px;
-  width: 160px;
+  min-width: 160px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -1377,10 +1384,10 @@ body {
   z-index: 2;
 }
 
-/* стиль для закрытия модального окна
+/* стиль для закрытия модального окна*/
 .modal-container-close {
   display: none;
-}*/
+}
 
 .modal {
   position: fixed;
