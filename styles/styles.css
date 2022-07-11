@@ -1373,10 +1373,10 @@ body {
   z-index: 2;
 }
 
-/* стиль для закрытия модального окна*/
+/* стиль для закрытия модального окна
 .modal-container-close {
   display: none;
-}
+}*/
 
 .modal {
   position: fixed;
@@ -1435,7 +1435,7 @@ body {
 
 .arrival-date,
 .departure-date {
-  width: 119px;
+  min-width: 119px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -1451,14 +1451,16 @@ body {
   border-radius: 4px;
   border: 0;
   padding: 15px 14px 19px;
+  margin: 0;
   font-size: 18px;
   line-height: 21px;
+  box-sizing: border-box;
 }
 
 .date-text {
   position: absolute;
-  top: 227px;
-  left: 225px;
+  top: 217px;
+  left: 233px;
   font-size: 16px;
   line-height: 21px;
   color: #FF5757;
@@ -1469,8 +1471,8 @@ body {
   position: absolute;
   font-size: 16px;
   line-height: 21px;
-  top: 327px;
-  left: 225px;
+  top: 310px;
+  left: 233px;
   color: #333333;
   margin: 0;
 }
@@ -1515,17 +1517,22 @@ body {
   border: 0;
   padding: 0;
   margin: 0;
-  fill: #000000;
   opacity: 0.3;
   cursor: pointer;
 }
 
 .minus {
   padding: 24px 29px 25px 19px;
+  display: flex;
+  align-items: center;
+  height: 13px;
+  min-width: 1px;
 }
 
 .plus {
   padding: 18px 19px 19px 30px;
+  height: 13px;
+  width: 13px;
 }
 
 .grownup-number,
@@ -1539,6 +1546,7 @@ body {
   text-align: center;
   font-size: 18px;
   line-height: 21px;
+  box-sizing: border-box;
 }
 
 .child {
@@ -1550,18 +1558,20 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  margin-right: 20px;
+  margin-right: 18px;
   align-items: center;
+  width: 79px;
 }
 
 .button-find {
-  width: 523px;
+  width: 575px;
   min-height: 34px;
   background: #83B3D3;
   border-radius: 10px;
   border: 0;
   color: #FFFFFF;
-  padding: 12px 26px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .tooltip {
@@ -1596,7 +1606,7 @@ body {
   color: #FFFFFF;
   padding: 15px 18px 18px 22px;
   border-radius: 10px;
-  width: 256px;
+  width: 216px;
   position: absolute;
   top: 30px;
   left: -155px;
@@ -1625,4 +1635,67 @@ body {
 .tooltip-toggle:hover + .tooltip-text
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
+}
+
+.modal-close-button:hover,
+.modal-close-button:active {
+  background-color: #E6E6E6;
+}
+
+.modal-close-button:focus {
+  border: #83B3D3;
+}
+
+.text-input:hover {
+  background-color: #E6E6E6;
+}
+
+.text-input:active {
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+}
+
+.text-input:focus {
+  background: #E6E6E6;
+  border: 3px solid #83B3D3;
+}
+
+.button-find:hover {
+  background-color: #68A2CA;
+}
+
+.button-find:active {
+  background-color: #68A2CA;
+  opacity: 0.3;
+}
+
+.button-find:focus {
+  background-color: #68A2CA;
+  border: 3px solid #756257;
+}
+
+.butten-minus:hover {
+  opacity: 1;
+}
+
+.butten-minus:active {
+  opacity: 0.2;
+}
+
+.butten-minus:focus {
+  opacity: 1;
+  border: 3px solid #83B3D3;
+}
+
+.button-plus:hover {
+  opacity: 1;
+}
+
+.button-plus:active {
+  opacity: 0.2;
+}
+
+.button-plus:focus {
+  opacity: 1;
+  border: 3px solid #83B3D3;
 }
