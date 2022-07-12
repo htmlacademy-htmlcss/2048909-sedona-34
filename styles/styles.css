@@ -618,10 +618,13 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .button-detailed {
   display: inline-block;
+  margin-bottom: 16px;
   padding: 9px 15px;
   background: #756157;
   border-radius: 4px;
@@ -655,6 +658,7 @@ body {
 
 .button-favourites {
   display: inline-block;
+  margin-bottom: 16px;
   padding: 9px 15px;
   background: #82B3D3;
   border-radius: 4px;
@@ -719,6 +723,7 @@ body {
 
 .rating {
   display: inline-block;
+  margin: 0;
   padding: 9px 22px;
   background: #F2F2F2;
   border-radius: 4px;
@@ -1089,15 +1094,28 @@ body {
   display: grid;
   grid-template-columns: 140px 140px;
   column-gap: 20px;
-  row-gap: 16px;
+}
+
+.description-title {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.description-price {
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .product-card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 20px;
-  gap: 16px;
+  align-items: center;
+  width: 340px;
+  margin-bottom: 40px;
+}
+
+.product-card-image-link {
+  margin-bottom: 16px;
 }
 
 .page-pagination {
