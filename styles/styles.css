@@ -488,6 +488,7 @@ body {
   border: 0;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .field:hover {
@@ -737,7 +738,7 @@ body {
 .appointment-catalog {
   width: 800px;
   text-align: center;
-  padding: 94px 200px;
+  padding: 98px 200px;
 }
 
 .appointment-catalog-title {
@@ -745,15 +746,15 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  text-align: center;
   margin: 0;
   margin-bottom: 29px;
+  box-sizing: border-box;
 }
 
 .appointment-catalog-paragraph {
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
+  box-sizing: border-box;
   margin: 0;
   margin-bottom: 46px;
 }
@@ -1136,6 +1137,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  margin-bottom: 25px;
 }
 
 .page-pagination::before {
