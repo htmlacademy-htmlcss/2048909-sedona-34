@@ -799,7 +799,7 @@ body {
 }
 
 .footer-social-link {
-  display: block;
+  display: flex;
   width: 47px;
   height: 40px;
   background-repeat: no-repeat;
