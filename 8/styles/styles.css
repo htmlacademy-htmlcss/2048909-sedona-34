@@ -488,6 +488,7 @@ body {
   border: 0;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .field:hover {
@@ -736,9 +737,8 @@ body {
 
 .appointment-catalog {
   width: 800px;
-  margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  text-align: center;
+  padding: 98px 200px;
 }
 
 .appointment-catalog-title {
@@ -746,15 +746,15 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  text-align: center;
   margin: 0;
   margin-bottom: 29px;
+  box-sizing: border-box;
 }
 
 .appointment-catalog-paragraph {
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
+  box-sizing: border-box;
   margin: 0;
   margin-bottom: 46px;
 }
@@ -800,7 +800,7 @@ body {
 }
 
 .footer-social-link {
-  display: block;
+  display: flex;
   width: 47px;
   height: 40px;
   background-repeat: no-repeat;
@@ -1119,9 +1119,10 @@ body {
 .product-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 340px;
   margin-bottom: 40px;
+  box-sizing: border-box;
+  padding: 0 20px;
 }
 
 .product-card-image-link {
@@ -1136,6 +1137,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  margin-bottom: 25px;
 }
 
 .page-pagination::before {
@@ -1276,7 +1278,12 @@ body {
 }
 
 .range-input-min {
-  border-right: 1px;
+  border: 2px 1px 2px 2px;
+  border-radius: 4px;
+}
+
+.range-input-max {
+  border-radius: 2px 2px 2px 1px;
 }
 
 .range-input::-webkit-outer-spin-button,
