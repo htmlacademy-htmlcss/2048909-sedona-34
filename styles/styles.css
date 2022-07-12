@@ -985,13 +985,18 @@ body {
 .filter-menu {
   display: flex;
   justify-content: center;
+  margin: auto;
   align-items: center;
-  padding: 55px 71px;
+  width: 1056px;
+  margin-top: 55px;
+  margin-bottom: 56px;
 }
 
 .select {
   position: relative;
   display: flex;
+  justify-content: space-between;
+  padding: 0;
   margin-right: auto;
   align-items: center;
   width: 290px;
