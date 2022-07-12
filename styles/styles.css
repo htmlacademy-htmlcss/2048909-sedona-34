@@ -1081,7 +1081,7 @@ body {
   padding: 0;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 18px;
-  margin-bottom: 96px;
+  margin-bottom: 69px;
 }
 
 .wrapper {
@@ -1123,15 +1123,14 @@ body {
   display: flex;
   width: 1056px;
   padding: 0;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 30px 71px 25px 73px;
+  margin: auto;
 }
 
 .page-pagination::before {
   position: absolute;
-  top: -30px;
+  top: -28px;
   width: 1055px;
   height: 1px;
   content: "";
