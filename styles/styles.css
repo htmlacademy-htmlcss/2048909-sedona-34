@@ -165,6 +165,7 @@ body {
   line-height: 26px;
   text-decoration: none;
   color: #000000;
+  text-transform: capitalize;
 }
 
 .navigation-link:hover {
