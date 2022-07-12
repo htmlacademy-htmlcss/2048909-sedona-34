@@ -326,6 +326,7 @@ body {
   padding: 0;
   margin: 0;
   margin-bottom: 30px;
+  box-sizing: border-box;
 }
 
 .advantages-image-city {
@@ -382,8 +383,12 @@ body {
 .search {
   display: flex;
   flex-direction: column;
-  padding: 91px 313px 93px;
+  padding-top: 91px;
+  padding-bottom: 93px;
+  margin: 0 auto;
   text-align: center;
+  box-sizing: border-box;
+  align-items: center;
 }
 
 .interest {
@@ -408,7 +413,7 @@ body {
   background: #756157;
   border-radius: 4px;
   box-sizing: border-box;
-  max-width: 574px;
+  width: 574px;
 }
 
 .button-search:hover {
