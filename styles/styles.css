@@ -103,8 +103,8 @@ body {
   padding: 0;
   margin: 0 auto;
   text-align: center;
-  margin-top: 63px;
-  margin-bottom: 90px;
+  padding-top: 63px;
+  padding-bottom: 90px;
 }
 
 .main-title {
@@ -235,7 +235,7 @@ body {
   display: inline-block;
   padding: 9px 15px;
   margin-top: 14px;
-  min-width: 160px;
+  width: 160px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -382,42 +382,33 @@ body {
 .search {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  padding: 0;
+  padding: 91px 313px 93px;
   text-align: center;
-  margin-top: 91px;
-  margin-bottom: 93px;
 }
 
 .interest {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
   text-transform: uppercase;
   margin-bottom: 29px;
 }
 
 .best {
+  display: flex;
   font-size: 22px;
   line-height: 26px;
+  width: 592px;
   margin: 0;
-  text-align: center;
   margin-bottom: 56px;
 }
 
 .button-search {
-  display: inline-block;
   padding: 12px 15px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
   background: #756157;
   border-radius: 4px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
+  box-sizing: border-box;
+  max-width: 574px;
 }
 
 .button-search:hover {
@@ -442,7 +433,6 @@ body {
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  margin: 0 auto;
   text-align: center;
   padding: 94px 200px;
 }
@@ -472,7 +462,6 @@ body {
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
-  text-align: center;
   color: #ffffff;
   border: none;
   text-decoration: none;
@@ -483,10 +472,12 @@ body {
 .appointment-form-email {
   display: flex;
   margin: 0;
-  flex-grow: 1;
+  padding: 0;
+  justify-content: center;
 }
 
 .field {
+  display: flex;
   margin: 0;
   padding: 20px 0 19px 22px;
   font: inherit;
@@ -495,6 +486,8 @@ body {
   border-radius: 10px 0 0 10px;
   width: 600px;
   border: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .field:hover {
@@ -525,8 +518,8 @@ body {
   width: 200px;
   background: #82B3D3;
   border-radius: 0 10px 10px 0;
-  padding: 12px 15px;
-  line-height: 36px;
+  box-sizing: border-box;
+  word-wrap: break-word;
 }
 
 .inner-header {
