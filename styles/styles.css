@@ -979,8 +979,9 @@ body {
 
 .filter-menu {
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin: 50px 71px 56px 72px;
+  padding: 55px 71px;
 }
 
 .select {
@@ -1079,6 +1080,8 @@ body {
 }
 
 .wrapper {
+  display: flex;
+  padding: 0;
   margin: auto;
 }
 
@@ -1235,7 +1238,7 @@ body {
 
 .range-input {
   width: 72px;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
   padding: 14px 50px 13px 19px;
   font: inherit;
   background-color: transparent;
@@ -1260,6 +1263,7 @@ body {
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
+  top: -7px;
 }
 
 .range-bar {
@@ -1300,7 +1304,7 @@ body {
 
 .toggle-max {
   top: -8px;
-  right: -9px;
+  right: -1px;
 }
 
 .control {
