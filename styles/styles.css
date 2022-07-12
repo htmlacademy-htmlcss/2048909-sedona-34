@@ -246,6 +246,7 @@ body {
   border: none;
   text-decoration: none;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .navigation-item:hover .button-user {
