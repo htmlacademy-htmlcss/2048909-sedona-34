@@ -289,15 +289,15 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 92px 85px;
+  padding: 90px 85px;
 }
 
 .container-advantages-icon {
-  padding: 80px 85px;
+  padding: 78px 81px;
 }
 
 .container-advantages-numb {
-  padding: 103px 85px;
+  padding: 103px 85px 102px;
 }
 
 .advantages-item {
@@ -333,6 +333,7 @@ body {
   padding: 0;
   margin: 0;
   width: 800px;
+  line-height: 0;
 }
 
 .advantages-item-title {
@@ -360,15 +361,10 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 
 .description-city {
-  margin: 0;
-  padding: 0;
-}
-
-.advantages-image-city{
-  display: flex;
   margin: 0;
   padding: 0;
 }
