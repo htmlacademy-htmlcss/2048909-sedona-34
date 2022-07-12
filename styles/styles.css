@@ -551,7 +551,7 @@ body {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 10px;
 }
 
@@ -865,11 +865,11 @@ body {
 .container-catalog {
   background-image: url("../images/filter-background.jpg");
   background-size: cover;
+  background-position: center;
   border-radius: 0;
   background-repeat: no-repeat;
   width: 1060px;
-  padding: 70px;
-  padding-top: 35px;
+  padding: 35px 70px 70px 70px;
 }
 
 .catalog-products {
@@ -980,7 +980,7 @@ body {
 .filter-menu {
   display: flex;
   align-items: center;
-  margin: 55px 71px 57px 72px;
+  margin: 50px 71px 56px 72px;
 }
 
 .select {
