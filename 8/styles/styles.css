@@ -165,6 +165,7 @@ body {
   line-height: 26px;
   text-decoration: none;
   color: #000000;
+  text-transform: capitalize;
 }
 
 .navigation-link:hover {
@@ -191,21 +192,28 @@ body {
   fill: #756157;
 }
 
-.navigation-user .navigation-item:nth-child(1) .navigation-link {
+.navigation-link-search {
   margin: 0;
-  padding-right: 24px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 
-.navigation-user .navigation-item:nth-child(2) .navigation-link {
+.navigation-link-favorite {
   margin: 0;
-  margin-right: 33px;
+  margin-right: 20px;
+  padding-right: 13px;
+  padding-left: 12px;
+}
+
+.navigation-user .navigation-item:last-child {
+  margin: 0;
 }
 
 .favorite-number {
   position: absolute;
   width: 20px;
   height: 20px;
-  left: 14px;
+  left: 25px;
   top: 15px;
   font-size: 10px;
   line-height: 20px;
@@ -225,9 +233,9 @@ body {
 
 .button-user {
   display: inline-block;
-  padding: 9px 14px;
+  padding: 9px 15px;
   margin-top: 14px;
-  width: 160px;
+  min-width: 160px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -238,6 +246,7 @@ body {
   border: none;
   text-decoration: none;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .navigation-item:hover .button-user {
@@ -280,7 +289,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  max-width: 400px;
   padding: 92px 85px;
 }
 
@@ -330,9 +338,11 @@ body {
 .advantages-item-title {
   font-weight: 700;
   font-size: 24px;
+  line-height: 28px;
   margin: 0;
   padding: 0;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .advantages-city {
@@ -1377,10 +1387,10 @@ body {
   z-index: 2;
 }
 
-/* стиль для закрытия модального окна
+/* стиль для закрытия модального окна*/
 .modal-container-close {
   display: none;
-}*/
+}
 
 .modal {
   position: fixed;
