@@ -232,8 +232,8 @@
               </svg>
               <span class="visually-hidden">Календарь</span>
             </span>
-            <label class="arrival-date" for="arrival">Дата заезда</label>
-            <input class="text-input" id="arrival" type="text" placeholder="27 апреля 2020">
+            <label class="arrival-date" for="check-in">Дата заезда</label>
+            <input class="text-input" id="check-in" type="text" placeholder="27 апреля 2020">
           </div>
           <p class="date-text">Мы не можем отправить вас в прошлое</p>
           <div class="modal-shape">
@@ -247,13 +247,13 @@
               </svg>
               <span class="visually-hidden">Календарь</span>
             </span>
-            <label class="departure-date" for="arrival">Дата выезда</label>
-            <input class="text-input" id="arrival" type="text" placeholder="1 сентября 2021">
+            <label class="departure-date" for="exit">Дата выезда</label>
+            <input class="text-input" id="exit" type="text" placeholder="1 сентября 2021">
           </div>
           <p class="date-text text-number">На эти даты есть свободные номера. Пока есть.</p>
           <div class="wrapper-buttons">
             <div class="grownup">
-              <label class="grownup-label" for="">Взрослые:</label>
+              <label class="grownup-label" for="choice-grownup">Взрослые:</label>
               <div class="wrapper-choice-grownup">
                 <button class="butten-minus minus">
                   <svg width="13" height="1" viewBox="0 0 13 1" xmlns="http://www.w3.org/2000/svg">
@@ -261,7 +261,7 @@
                   </svg>
                   <span class="visually-hidden">Минус</span>
                 </button>
-                <input class="grownup-number" id="number-minus" type="text" value="2">
+                <input class="grownup-number" id="choice-grownup" type="text" value="2">
                 <button class="button-plus plus">
                   <svg width="13" height="13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
@@ -272,7 +272,7 @@
             </div>
             <div class="child">
               <span class="child-label">
-                <label class="child-label" for="">Дети:</label>
+                <label class="child-label" for="choice-kids">Дети:</label>
                 <span class="tooltip">
                   <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label"></button>
                   <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с
@@ -286,7 +286,7 @@
                   </svg>
                   <span class="visually-hidden">Минус</span>
                 </button>
-                <input class="child-number" id="number-minus" type="text" value="1">
+                <input class="child-number" id="choice-kids" type="text" value="1">
                 <button class="button-plus plus">
                   <svg width="13" height="13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
