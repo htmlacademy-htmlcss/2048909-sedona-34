@@ -72,7 +72,7 @@ body {
 .container-logo {
   position: relative;
   background-image: url("../images/index-background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #756157;
 }
@@ -496,10 +496,10 @@ body {
 .appointment {
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
   text-align: center;
   padding: 94px 200px;
   background-color: #756157;
+  background-size: cover;
 }
 
 .appointment-title {
