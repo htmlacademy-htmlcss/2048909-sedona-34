@@ -972,6 +972,14 @@ body {
   background: #756157;
 }
 
+.catalog-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
 .container-catalog {
   background-image: url("../images/filter-background.jpg");
   background-color: #756157;
