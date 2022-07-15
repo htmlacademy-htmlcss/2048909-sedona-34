@@ -1676,7 +1676,6 @@ body {
 
 .modal-content {
   margin: 0;
-  margin-bottom: 70px;
 }
 
 .modal-shape {
@@ -1693,13 +1692,26 @@ body {
   right: 17px;
 }
 
-.arrival-date,
-.departure-date {
-  min-width: 119px;
+.arrival-date {
+  max-width: 113px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   margin-right: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.departure-date {
+  max-width: 119px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  margin-right: 36px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1725,7 +1737,7 @@ body {
 .date-text {
   position: absolute;
   top: 217px;
-  left: 233px;
+  left: 225px;
   font-size: 16px;
   line-height: 21px;
   color: #FF5757;
@@ -1737,7 +1749,7 @@ body {
   font-size: 16px;
   line-height: 21px;
   top: 310px;
-  left: 233px;
+  left: 225px;
   color: #333333;
   margin: 0;
 }
@@ -1766,7 +1778,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 91px;
+  max-width: 91px;
 }
 
 .wrapper-choice-grownup,
@@ -1775,7 +1787,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   max-height: 50px;
-  min-width: 133px;
+  width: 133px;
   background: #F2F2F2;
   border-radius: 4px;
   border: 0;
@@ -1797,7 +1809,7 @@ body {
 }
 
 .minus {
-  padding: 24px 29px 25px 19px;
+  padding: 24px 25px 25px 19px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
