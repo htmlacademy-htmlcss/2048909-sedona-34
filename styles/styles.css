@@ -485,10 +485,11 @@ body {
   line-height: 26px;
   width: 592px;
   margin: 0;
-  margin-bottom: 56px;
+  margin-bottom: 53px;
 }
 
 .button-search {
+  display: block;
   padding: 12px 15px;
   background: #756157;
   border-radius: 4px;
