@@ -864,11 +864,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  box-sizing: border-box;
 }
 
 .footer-socials {
   max-width: 190px;
-  margin-right: 237px;
 }
 
 .footer-social-list {
@@ -930,8 +930,7 @@ body {
 }
 
 .footer-contact {
-  width: 331px;
-  margin-right: 236px;
+  margin: auto;
 }
 
 .footer-contact-phone {
