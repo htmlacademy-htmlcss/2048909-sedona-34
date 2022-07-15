@@ -333,8 +333,16 @@ body {
   padding: 90px 85px;
 }
 
-.container-advantages-icon {
-  padding: 78px 81px;
+.container-advantages-home {
+  padding: 82px 85px 80px;
+}
+
+.container-advantages-food {
+  padding: 83px 85px 81px;
+}
+
+.container-advantages-souvenirs {
+  padding: 80px 85px 81px;
 }
 
 .container-advantages-numb {
@@ -371,9 +379,20 @@ body {
   display: block;
   padding: 0;
   margin: 0;
-  margin-bottom: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.home {
+  margin-bottom: 25px;
+}
+
+.food {
+  margin-bottom: 25px;
+}
+
+.souvenirs {
+  margin-bottom: 22px;
 }
 
 .advantages-image-city {
