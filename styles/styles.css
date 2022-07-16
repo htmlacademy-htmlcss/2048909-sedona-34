@@ -876,7 +876,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 40px 70px 30px 70px;
+  padding: 45px 70px 35px 70px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -954,8 +954,6 @@ body {
 
 .footer-contact {
   margin: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .footer-contact-phone {
@@ -978,8 +976,6 @@ body {
 .logo-html {
   margin: 0;
   max-width: 115px;
-  padding-top: 9px;
-  padding-bottom: 8px;
 }
 
 .logo-html-link:hover {
