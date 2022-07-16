@@ -954,6 +954,8 @@ body {
 
 .footer-contact {
   margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .footer-contact-phone {
@@ -976,6 +978,8 @@ body {
 .logo-html {
   margin: 0;
   max-width: 115px;
+  padding-top: 9px;
+  padding-bottom: 8px;
 }
 
 .logo-html-link:hover {
