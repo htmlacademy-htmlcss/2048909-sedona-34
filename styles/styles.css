@@ -1231,6 +1231,10 @@ body {
   cursor: pointer;
 }
 
+.catalog-filter-item:last-child .control {
+  margin-bottom: 0;
+}
+
 .filter-menu .button-current {
   border-color: #000000;
 }
