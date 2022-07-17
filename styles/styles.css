@@ -747,7 +747,7 @@ body {
 
 .button-detailed:active {
   background-color: #756157;
-  color: rgba(255, 255, 255, 0.3);
+  opacity: 0.3;
 }
 
 .button-detailed:focus {
@@ -778,7 +778,7 @@ body {
 
 .button-favourites:active {
   background: #82B3D3;
-  color: rgba(255, 255, 255, 0.3);
+  opacity: 0.3;
 }
 
 .button-favourites:focus {
@@ -796,7 +796,7 @@ body {
 
 .button-favourites-current:active {
   background: #7DB54F;
-  color: rgba(255, 255, 255, 0.3);
+  opacity: 0.3;
 }
 
 .button-favourites-current:focus {
