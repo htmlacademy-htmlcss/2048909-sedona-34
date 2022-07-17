@@ -2005,7 +2005,7 @@ body {
 }
 
 .modal-close-button:focus {
-  border-color: #83B3D3;
+  outline: 3px solid #83B3D3;
 }
 
 .text-input:hover {
@@ -2027,13 +2027,11 @@ body {
 }
 
 .button-find:active {
-  background-color: #68A2CA;
   opacity: 0.3;
 }
 
 .button-find:focus {
-  background-color: #68A2CA;
-  border:  #756257;
+  outline: 3px solid #756257;
 }
 
 .butten-minus:hover {
@@ -2045,8 +2043,7 @@ body {
 }
 
 .butten-minus:focus {
-  border-color: #83B3D3;
-  outline: 0;
+  outline: 3px solid #83B3D3;
 }
 
 .button-plus:hover {
@@ -2058,6 +2055,5 @@ body {
 }
 
 .button-plus:focus {
-  opacity: 1;
-  border-color: #83B3D3;
+  outline: 3px solid #83B3D3;
 }
