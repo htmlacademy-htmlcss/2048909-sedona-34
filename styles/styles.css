@@ -504,6 +504,7 @@ body {
 }
 
 .button-search:active {
+  background: #756157;
   opacity: 0.3;
 }
 
