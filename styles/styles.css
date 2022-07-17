@@ -942,7 +942,7 @@ body {
 }
 
 .footer-social-link:active  {
-  fill: rgba(104, 162, 202, 0.3);
+  opacity: 0.3;
 }
 
 .footer-social-link:focus {
@@ -963,7 +963,7 @@ body {
 }
 
 .footer-contact-phone:active {
-  color: rgba(117, 97, 87, 0.3);
+  opacity: 0.3;
 }
 
 .footer-contact-phone:focus {
@@ -980,7 +980,7 @@ body {
 }
 
 .logo-html-link:active {
-  fill: rgba(117, 97, 87, 0.3);
+  opacity: 0.3;
 }
 
 .logo-html-link:focus {
