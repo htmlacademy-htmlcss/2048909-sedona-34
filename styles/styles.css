@@ -1278,7 +1278,7 @@ body {
   -webkit-column-gap: 18px;
      -moz-column-gap: 18px;
           column-gap: 18px;
-  margin-bottom: 69px;
+  margin-bottom: 70px;
 }
 
 .wrapper {
@@ -1347,7 +1347,7 @@ body {
 
 .page-pagination::before {
   position: absolute;
-  top: -28px;
+  top: -27px;
   width: 1055px;
   height: 1px;
   content: "";
