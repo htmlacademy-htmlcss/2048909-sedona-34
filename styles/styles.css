@@ -1193,16 +1193,16 @@ body {
 }
 
 .select-control:hover {
-  border-color: rgba(104, 162, 202, 1);
+  border: 2px solid #68A2CA;
 }
 
 .select-control:active {
-  border-color: #3F5E72;
+  border: 2px solid #3F5E72;
 }
 
 .select-control:focus {
   outline: 0;
-  border-color: #68A2CA;
+  border: 2px solid #68A2CA;
 }
 
 .select-control:disabled {
@@ -1983,13 +1983,16 @@ body {
   display: block;
 }
 
-.modal-close-button:hover,
-.modal-close-button:active {
+.modal-close-button:hover {
   background-color: #E6E6E6;
 }
 
+.modal-close-button:active {
+  opacity: 0.3;
+}
+
 .modal-close-button:focus {
-  border: #83B3D3;
+  border-color: #83B3D3;
 }
 
 .text-input:hover {
