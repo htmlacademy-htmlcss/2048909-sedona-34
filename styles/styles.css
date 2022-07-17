@@ -1962,16 +1962,22 @@ body {
 }
 
 .tooltip-text::after {
-  content:'';
-  background-image: url("../images/icon/tooltip-arrow.svg");
-  width: 19px;
-  height: 9px;
   position: absolute;
-  bottom: 100%;
-  left:0;
-  right:0;
-  margin-left: auto;
-  margin-right: auto;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  height: 9px;
+  width: 19px;
+}
+
+.arrow-tooltip {
+  position: absolute;
+  left: -32px;
+  bottom: -45px;
+  top: 10px;
+  right: 10px;
+  display: none;
 }
 
 .tooltip-toggle:hover
@@ -1980,7 +1986,13 @@ body {
 }
 
 .tooltip-toggle:hover + .tooltip-text
-.tooltip-toggle:focus + .tooltip-text {
+.tooltip-toggle:focus + .tooltip-text
+.arrow-tooltip {
+  display: block;
+}
+
+.tooltip-toggle:hover + .arrow-tooltip
+.tooltip-toggle:focus + .arrow-tooltip {
   display: block;
 }
 
