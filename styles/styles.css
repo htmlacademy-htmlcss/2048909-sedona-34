@@ -1618,17 +1618,18 @@ body {
   background: #FFFFFF;
 }
 
-.control:hover .control-mark {
+
+.control-mark:hover {
   background: rgba(255, 255, 255, 0.6);
 }
 
-.control:active .control-mark {
+.control-mark:active {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.control:focus .control-mark {
+.control-input:focus + .control-mark {
   opacity: 0.6;
-  border: 3px solid #83B3D3;
+  outline: 3px solid #83B3D3;
 }
 
 .control-input:disabled + .control-mark {
@@ -1985,7 +1986,10 @@ body {
 }
 
 .tooltip-toggle:hover + .tooltip-text
-.tooltip-toggle:focus + .tooltip-text
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
 .arrow-tooltip {
   display: block;
 }
