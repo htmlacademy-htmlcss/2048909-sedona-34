@@ -2014,11 +2014,11 @@ body {
 
 .text-input:active {
   background-color: #FFFFFF;
-  border-color: #000000;
+  border: 2px solid #000000;
 }
 
 .text-input:focus {
-  border-color: #83B3D3;
+  border: 3px solid #83B3D3;
   outline: 0;
 }
 
