@@ -203,7 +203,7 @@ body {
 }
 
 .navigation-link:active {
-  color: rgba(117, 97, 87, 0.3);
+  opacity: 0.3;
 }
 
 .navigation-link:focus  {
