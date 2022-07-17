@@ -612,6 +612,7 @@ body {
 
 .button-appointment {
   margin: 0;
+  padding: 0;
   width: 200px;
   background: #82B3D3;
   border-radius: 0 10px 10px 0;
@@ -633,8 +634,7 @@ body {
 
 .button-appointment:active {
   background: #82B3D3;
-  border-radius: 0 10px 10px 0;
-  color: rgba(255, 255, 255, 0.3);
+  opacity: 0.3;
 }
 
 .button-appointment:focus {
