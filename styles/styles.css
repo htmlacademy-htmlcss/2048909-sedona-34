@@ -1097,6 +1097,7 @@ body {
   border-radius: 4px;
   min-width: 160px;
   min-height: 48px;
+  box-sizing: border-box;
 }
 
 .button-apply:hover {
@@ -1127,6 +1128,7 @@ body {
   line-height: 20px;
   text-transform: capitalize;
   background-color: transparent;
+  box-sizing: border-box;
 }
 
 .button-off:hover,
@@ -1135,8 +1137,8 @@ body {
 }
 
 .button-off:focus {
-  border: #83B3D3;
-  border-radius: 4px;
+  outline: 0;
+  border: 2px solid #83B3D3;
 }
 
 .filter-menu {
@@ -1190,13 +1192,17 @@ body {
           appearance: none;
 }
 
-.select-control:hover,
-.select-control:focus {
+.select-control:hover {
   border-color: rgba(104, 162, 202, 1);
 }
 
 .select-control:active {
   border-color: rgba(63, 94, 114, 1);
+}
+
+.select-control:focus {
+  outline: 0;
+  border-color: rgba(104, 162, 202, 1);
 }
 
 .select-control:disabled {
@@ -1618,7 +1624,7 @@ body {
 }
 
 .control:focus .control-mark {
-  background: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
   border: 3px solid #83B3D3;
 }
 
