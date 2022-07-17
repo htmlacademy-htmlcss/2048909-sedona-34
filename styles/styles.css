@@ -1197,12 +1197,12 @@ body {
 }
 
 .select-control:active {
-  border-color: rgba(63, 94, 114, 1);
+  border-color: #3F5E72;
 }
 
 .select-control:focus {
   outline: 0;
-  border-color: rgba(104, 162, 202, 1);
+  border-color: #68A2CA;
 }
 
 .select-control:disabled {
