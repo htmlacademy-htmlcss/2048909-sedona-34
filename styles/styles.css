@@ -1430,13 +1430,16 @@ body {
           appearance: none;
 }
 
-.pagination-select-control:hover,
-.pagination-select-control:focus {
-  border-color: rgba(104, 162, 202, 1);
+.pagination-select-control:hover {
+  border: 2px solid #68A2CA;
 }
 
 .pagination-select-control:active {
-  border-color: rgba(63, 94, 114, 1);
+  border: 2px solid #3F5E72;
+}
+
+.pagination-select-control:focus {
+  border: 2px solid #68A2CA;
 }
 
 .pagination-select-control:disabled {
