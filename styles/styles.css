@@ -1256,6 +1256,7 @@ body {
 .button-light:focus,
 .button-current:focus {
   border-color: rgba(104, 162, 202, 1);
+  outline: 0;
 }
 
 .filter-menu-title {
