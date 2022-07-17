@@ -1946,6 +1946,7 @@ body {
 
 .tooltip-text {
   text-transform: none;
+  font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   background-color: #333333;
