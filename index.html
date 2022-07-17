@@ -272,19 +272,24 @@
                 <label class="child-label" for="choice-kids">Дети:</label>
                 <span class="tooltip">
                   <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label"></button>
+                  <span class="arrow-tooltip">
+                  <svg width="19" height="9" viewBox="0 0 19 9" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.5 0 19 9H0l9.5-9Z" fill="#333"/>
+                  </svg>
+                 </span>
                   <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с
                     вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
                 </span>
               </span>
               <div class="wrapper-choice-kids">
-                <button class="butten-minus minus">
+                <button class="butten-minus minus" type="button">
                   <svg width="13" height="1" viewBox="0 0 13 1" fill="#000000" xmlns="http://www.w3.org/2000/svg" role="img">
                     <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z" />
                   </svg>
                   <span class="visually-hidden">Минус</span>
                 </button>
                 <input class="child-number" id="choice-kids" type="text" value="1" required="required">
-                <button class="button-plus plus">
+                <button class="button-plus plus" type="button">
                   <svg width="13" height="13" viewBox="0 0 13 13" fill="#000000" xmlns="http://www.w3.org/2000/svg" role="img">
                     <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
                   </svg>

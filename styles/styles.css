@@ -1137,8 +1137,7 @@ body {
 }
 
 .button-off:focus {
-  outline: 0;
-  border: 2px solid #83B3D3;
+  outline: 2px solid #83B3D3;
 }
 
 .filter-menu {
@@ -1962,16 +1961,22 @@ body {
 }
 
 .tooltip-text::after {
-  content:'';
-  background-image: url("../images/icon/tooltip-arrow.svg");
-  width: 19px;
-  height: 9px;
   position: absolute;
-  bottom: 100%;
-  left:0;
-  right:0;
-  margin-left: auto;
-  margin-right: auto;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  height: 9px;
+  width: 19px;
+}
+
+.arrow-tooltip {
+  position: absolute;
+  left: -32px;
+  bottom: -45px;
+  top: 10px;
+  right: 10px;
+  display: none;
 }
 
 .tooltip-toggle:hover
@@ -1980,7 +1985,13 @@ body {
 }
 
 .tooltip-toggle:hover + .tooltip-text
-.tooltip-toggle:focus + .tooltip-text {
+.tooltip-toggle:focus + .tooltip-text
+.arrow-tooltip {
+  display: block;
+}
+
+.tooltip-toggle:hover + .arrow-tooltip
+.tooltip-toggle:focus + .arrow-tooltip {
   display: block;
 }
 
@@ -1993,7 +2004,7 @@ body {
 }
 
 .modal-close-button:focus {
-  border-color: #83B3D3;
+  outline: 3px solid #83B3D3;
 }
 
 .text-input:hover {
@@ -2002,11 +2013,11 @@ body {
 
 .text-input:active {
   background-color: #FFFFFF;
-  border-color: #000000;
+  border: 2px solid #000000;
 }
 
 .text-input:focus {
-  border-color: #83B3D3;
+  border: 3px solid #83B3D3;
   outline: 0;
 }
 
@@ -2015,13 +2026,11 @@ body {
 }
 
 .button-find:active {
-  background-color: #68A2CA;
   opacity: 0.3;
 }
 
 .button-find:focus {
-  background-color: #68A2CA;
-  border:  #756257;
+  outline: 3px solid #756257;
 }
 
 .butten-minus:hover {
@@ -2033,8 +2042,7 @@ body {
 }
 
 .butten-minus:focus {
-  border-color: #83B3D3;
-  outline: 0;
+  outline: 3px solid #83B3D3;
 }
 
 .button-plus:hover {
@@ -2046,6 +2054,5 @@ body {
 }
 
 .button-plus:focus {
-  opacity: 1;
-  border-color: #83B3D3;
+  outline: 3px solid #83B3D3;
 }
