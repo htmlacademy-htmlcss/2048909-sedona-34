@@ -1137,8 +1137,7 @@ body {
 }
 
 .button-off:focus {
-  outline: 0;
-  border: 2px solid #83B3D3;
+  outline: 2px solid #83B3D3;
 }
 
 .filter-menu {
