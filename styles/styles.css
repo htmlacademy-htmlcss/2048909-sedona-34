@@ -215,7 +215,7 @@ body {
 }
 
 .navigation-link:active .navigation-icon {
-  fill: rgba(117, 97, 87, 0.3);
+  opacity: 0.3;
 }
 
 .navigation-link:focus .navigation-icon {
